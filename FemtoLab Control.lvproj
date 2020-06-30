@@ -11,9 +11,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Modules" Type="Folder">
+			<Item Name="Dashboard.lvlib" Type="Library" URL="../Libraries/Dashboard/Dashboard.lvlib"/>
 			<Item Name="SpectraPro.lvlib" Type="Library" URL="../Libraries/SpectraPro/SpectraPro.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
+			<Item Name="Test Dashboard API.vi" Type="VI" URL="../Libraries/Dashboard/Test Dashboard API.vi"/>
 			<Item Name="Test SpectraPro API.vi" Type="VI" URL="../Libraries/SpectraPro/Test SpectraPro API.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder"/>
