@@ -18,7 +18,6 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
-				<Item Name="Set Wavelength Argument--cluster.ctl" Type="VI" URL="../Set Wavelength Argument--cluster.ctl"/>
 				<Item Name="Set and Get Wavelength Argument--cluster.ctl" Type="VI" URL="../Set and Get Wavelength Argument--cluster.ctl"/>
 				<Item Name="Set and Get Wavelength (Reply Payload)--cluster.ctl" Type="VI" URL="../Set and Get Wavelength (Reply Payload)--cluster.ctl"/>
 			</Item>
@@ -34,7 +33,6 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
-			<Item Name="Set Wavelength.vi" Type="VI" URL="../Set Wavelength.vi"/>
 			<Item Name="Set and Get Wavelength.vi" Type="VI" URL="../Set and Get Wavelength.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
