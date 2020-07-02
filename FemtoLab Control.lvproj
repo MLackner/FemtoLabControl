@@ -11,16 +11,16 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Modules" Type="Folder">
+			<Item Name="Camera.lvlib" Type="Library" URL="../Libraries/Camera/Camera.lvlib"/>
 			<Item Name="Dashboard.lvlib" Type="Library" URL="../Libraries/Dashboard/Dashboard.lvlib"/>
 			<Item Name="FileIO.lvlib" Type="Library" URL="../Libraries/FileIO/FileIO.lvlib"/>
-			<Item Name="PICam.lvlib" Type="Library" URL="../Libraries/PICam/PICam.lvlib"/>
-			<Item Name="SpectraPro.lvlib" Type="Library" URL="../Libraries/SpectraPro/SpectraPro.lvlib"/>
+			<Item Name="Spectrometer.lvlib" Type="Library" URL="../Libraries/Spectrometer/Spectrometer.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
+			<Item Name="Test Camera API.vi" Type="VI" URL="../Libraries/Camera/Test Camera API.vi"/>
 			<Item Name="Test Dashboard API.vi" Type="VI" URL="../Libraries/Dashboard/Test Dashboard API.vi"/>
 			<Item Name="Test FileIO API.vi" Type="VI" URL="../Libraries/FileIO/Test FileIO API.vi"/>
-			<Item Name="Test PICam API.vi" Type="VI" URL="../Libraries/PICam/Test PICam API.vi"/>
-			<Item Name="Test SpectraPro API.vi" Type="VI" URL="../Libraries/SpectraPro/Test SpectraPro API.vi"/>
+			<Item Name="Test Spectrometer API.vi" Type="VI" URL="../Libraries/Spectrometer/Test Spectrometer API.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
@@ -33,6 +33,8 @@
 				<Item Name="Destroy Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy Rendezvous.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="Rendezvous RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous RefNum"/>
