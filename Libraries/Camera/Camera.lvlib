@@ -27,6 +27,7 @@
 				<Item Name="Acquire Image Argument--cluster.ctl" Type="VI" URL="../Acquire Image Argument--cluster.ctl"/>
 				<Item Name="Acquisition Done Argument--cluster.ctl" Type="VI" URL="../Acquisition Done Argument--cluster.ctl"/>
 				<Item Name="Acquisition Done (Reply Payload)--cluster.ctl" Type="VI" URL="../Acquisition Done (Reply Payload)--cluster.ctl"/>
+				<Item Name="Acquire Continuously Argument--cluster.ctl" Type="VI" URL="../Acquire Continuously Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
