@@ -20,6 +20,10 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Get Image Argument--cluster.ctl" Type="VI" URL="../Get Image Argument--cluster.ctl"/>
 				<Item Name="Get Image (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Image (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set Exposure Time Argument--cluster.ctl" Type="VI" URL="../Set Exposure Time Argument--cluster.ctl"/>
+				<Item Name="Set Exposure Time (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Exposure Time (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set Binning Argument--cluster.ctl" Type="VI" URL="../Set Binning Argument--cluster.ctl"/>
+				<Item Name="Set Binning (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Binning (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -34,6 +38,8 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Get Image.vi" Type="VI" URL="../Get Image.vi"/>
+			<Item Name="Set Exposure Time.vi" Type="VI" URL="../Set Exposure Time.vi"/>
+			<Item Name="Set Binning.vi" Type="VI" URL="../Set Binning.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -51,6 +57,8 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Broadcast Image.vi" Type="VI" URL="../Broadcast Image.vi"/>
+		<Item Name="Broadcast Exposure Time.vi" Type="VI" URL="../Broadcast Exposure Time.vi"/>
+		<Item Name="Broadcast Binning.vi" Type="VI" URL="../Broadcast Binning.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
