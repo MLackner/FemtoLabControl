@@ -87,6 +87,7 @@
 			</Item>
 			<Item Name="Abstract Camera.lvclass" Type="LVClass" URL="../../Camera-LVClass/Abstract Camera_class/Abstract Camera.lvclass"/>
 			<Item Name="Abstract Spectrometer.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/Abstract Spectrometer_class/Abstract Spectrometer.lvclass"/>
+			<Item Name="Acquire Continuously Argument--cluster.ctl" Type="VI" URL="../Libraries/Camera/Acquire Continuously Argument--cluster.ctl"/>
 			<Item Name="Simulated Camera.lvclass" Type="LVClass" URL="../../Camera-LVClass/Simulated_class/Simulated Camera.lvclass"/>
 			<Item Name="Simulated.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/Simulated_class/Simulated.lvclass"/>
 		</Item>
