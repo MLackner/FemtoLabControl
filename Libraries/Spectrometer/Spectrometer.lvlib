@@ -18,8 +18,12 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
-				<Item Name="Set and Get Wavelength Argument--cluster.ctl" Type="VI" URL="../Set and Get Wavelength Argument--cluster.ctl"/>
-				<Item Name="Set and Get Wavelength (Reply Payload)--cluster.ctl" Type="VI" URL="../Set and Get Wavelength (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set Wavelength Argument--cluster.ctl" Type="VI" URL="../Set Wavelength Argument--cluster.ctl"/>
+				<Item Name="Set Wavelength (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Wavelength (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set Slit Width Argument--cluster.ctl" Type="VI" URL="../Set Slit Width Argument--cluster.ctl"/>
+				<Item Name="Set Slit Width (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Slit Width (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set Grating Argument--cluster.ctl" Type="VI" URL="../Set Grating Argument--cluster.ctl"/>
+				<Item Name="Set Grating (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Grating (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -33,7 +37,9 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
-			<Item Name="Set and Get Wavelength.vi" Type="VI" URL="../Set and Get Wavelength.vi"/>
+			<Item Name="Set Wavelength.vi" Type="VI" URL="../Set Wavelength.vi"/>
+			<Item Name="Set Slit Width.vi" Type="VI" URL="../Set Slit Width.vi"/>
+			<Item Name="Set Grating.vi" Type="VI" URL="../Set Grating.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -51,6 +57,8 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Broadcast Wavelength.vi" Type="VI" URL="../Broadcast Wavelength.vi"/>
+		<Item Name="Broadcast Slit Width.vi" Type="VI" URL="../Broadcast Slit Width.vi"/>
+		<Item Name="Broadcast Grating.vi" Type="VI" URL="../Broadcast Grating.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
