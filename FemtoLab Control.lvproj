@@ -49,6 +49,7 @@
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -85,8 +86,8 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Abstract Spectrometer.lvclass" Type="LVClass" URL="../../Spectrometer_class/Abstract Spectrometer_class/Abstract Spectrometer.lvclass"/>
-			<Item Name="Load Class From File on Disk.vi" Type="VI" URL="../../Spectrometer_class/Abstract Spectrometer_class/Load Class From File on Disk.vi"/>
+			<Item Name="Abstract Spectrometer.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/Abstract Spectrometer_class/Abstract Spectrometer.lvclass"/>
+			<Item Name="Load Class From File on Disk.vi" Type="VI" URL="../../Spectrometer-LVClass/Abstract Spectrometer_class/Load Class From File on Disk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
