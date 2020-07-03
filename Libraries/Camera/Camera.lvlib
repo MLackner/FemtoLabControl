@@ -24,6 +24,7 @@
 				<Item Name="Set Exposure Time (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Exposure Time (Reply Payload)--cluster.ctl"/>
 				<Item Name="Set Binning Argument--cluster.ctl" Type="VI" URL="../Set Binning Argument--cluster.ctl"/>
 				<Item Name="Set Binning (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Binning (Reply Payload)--cluster.ctl"/>
+				<Item Name="Acquire Image Argument--cluster.ctl" Type="VI" URL="../Acquire Image Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -40,6 +41,7 @@
 			<Item Name="Get Image.vi" Type="VI" URL="../Get Image.vi"/>
 			<Item Name="Set Exposure Time.vi" Type="VI" URL="../Set Exposure Time.vi"/>
 			<Item Name="Set Binning.vi" Type="VI" URL="../Set Binning.vi"/>
+			<Item Name="Acquire Image.vi" Type="VI" URL="../Acquire Image.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
