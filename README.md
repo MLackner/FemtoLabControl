@@ -52,3 +52,15 @@ All public APIs do not include standard DQMH requests.
 #### Public API
 
 **Save Data** (TODO) | *arg: datacluster::Cluster* | *ret: success::Bool* | Saves the cluster to disk. Folders should be created automatically based on the name of the experiment (should be given in the Acquisition Module) and the data (+other parameters?). Which format?
+
+## Developer Infos
+
+### Add a new "Get Module Data" Request and Wait for Reply
+
+1. Make the Module Data cluster public. To do that move the "Module Data--cluster.ctl" from "Modules/*Module Name*/Private" to "Modules/*Module Name*/Public API" or any other non-private virtual folder.
+2. Create a new "Request and Wait for Reply" for the module in question (Tools -> Delacor -> DQMH -> Event -> Create New DQMH Event...) 
+3. Name it "Get Module Data" and insert documentation
+4. In the "Reply Payload Window" insert the "Module Data--cluster.ctl" and rename it to the name of the module. The name of the cluster will translate to a group name in the saved HDF5 file, so make sure it's unique. (Therefore rename it to the name of the module)
+5. Click "OK"
+6. In the "Message Handling Loop", connect the *Module Name* input of the "Bundle By Name" node to the module Data cluster. Also create an error constant for the "Get Module Data_error" input.
+7. Set up the event case in the "Test *Module Name* API".
