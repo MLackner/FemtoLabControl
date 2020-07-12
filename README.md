@@ -46,12 +46,16 @@ All public APIs do not include standard DQMH requests.
 **Get Image** | *arg: nothing* | *ret: 2D Array UInt16* | Get the Image from the camera. The image is broadcasted and put stored in the Module Data cluster. *TODO: this is a dummy without functionality*
 
 ***
-### Data Write Module
+### FileIO
 *DQMH Module* | Write data to disk
 
 #### Public API
 
-**Save Data** (TODO) | *arg: datacluster::Cluster* | *ret: success::Bool* | Saves the cluster to disk. Folders should be created automatically based on the name of the experiment (should be given in the Acquisition Module) and the data (+other parameters?). Which format?
+**Prepare File** (TODO) | *arg: data::Variant[, dims::Array{Int,1}, filepath::Path*] | *ret: filepath::Path, success::Bool* | Generates an empty HDF5 file with a group/dataset structure resembling the *datacluster* argument. If connected, the datasets will have additional dimensions *dims* in addition to their native dimensions. We can write to this file with the **Write to File** VI. If no file path is specified the file will be saved to the standard path defined in the module configuration.
+
+Success is checked by determining if there was an error. The contents of the *.h5 file are not checked against the content of the data cluster.
+
+**Write to File** | *arg: path::Path[, indices::Array{Int,1}*] | *ret: success::Bool* | Writes data to the file specified by *path*. Make sure the file was initialized correctly with the **Prepare File** VI.
 
 ## Developer Infos
 
