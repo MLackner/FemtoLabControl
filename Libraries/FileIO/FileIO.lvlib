@@ -19,6 +19,8 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Prepare File Argument--cluster.ctl" Type="VI" URL="../Prepare File Argument--cluster.ctl"/>
 				<Item Name="Prepare File (Reply Payload)--cluster.ctl" Type="VI" URL="../Prepare File (Reply Payload)--cluster.ctl"/>
+				<Item Name="Write to File Argument--cluster.ctl" Type="VI" URL="../Write to File Argument--cluster.ctl"/>
+				<Item Name="Write to File (Reply Payload)--cluster.ctl" Type="VI" URL="../Write to File (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -33,6 +35,7 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Prepare File.vi" Type="VI" URL="../Prepare File.vi"/>
+			<Item Name="Write to File.vi" Type="VI" URL="../Write to File.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -50,6 +53,7 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="File Prepared.vi" Type="VI" URL="../File Prepared.vi"/>
+		<Item Name="Wrote to File.vi" Type="VI" URL="../Wrote to File.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

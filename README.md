@@ -55,7 +55,7 @@ All public APIs do not include standard DQMH requests.
 
 Success is checked by determining if there was an error. The contents of the *.h5 file are not checked against the content of the data cluster.
 
-**Write to File** | *arg: path::Path[, indices::Array{Int,1}*] | *ret: success::Bool* | Writes data to the file specified by *path*. Make sure the file was initialized correctly with the **Prepare File** VI.
+**Write to File** | *arg: path::Path, data::Variant[, indices::Array{Int,1}*] | *ret: success::Bool* | Writes data to the file specified by *path*. Make sure the file was initialized correctly with the **Prepare File** VI.
 
 ## Developer Infos
 
