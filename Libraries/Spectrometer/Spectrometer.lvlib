@@ -24,6 +24,8 @@
 				<Item Name="Set Slit Width (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Slit Width (Reply Payload)--cluster.ctl"/>
 				<Item Name="Set Grating Argument--cluster.ctl" Type="VI" URL="../Set Grating Argument--cluster.ctl"/>
 				<Item Name="Set Grating (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Grating (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get Module Data Argument--cluster.ctl" Type="VI" URL="../Get Module Data Argument--cluster.ctl"/>
+				<Item Name="Get Module Data (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Module Data (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -40,10 +42,12 @@
 			<Item Name="Set Wavelength.vi" Type="VI" URL="../Set Wavelength.vi"/>
 			<Item Name="Set Slit Width.vi" Type="VI" URL="../Set Slit Width.vi"/>
 			<Item Name="Set Grating.vi" Type="VI" URL="../Set Grating.vi"/>
+			<Item Name="Get Module Data.vi" Type="VI" URL="../Get Module Data.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
+		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -74,7 +78,6 @@
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
 		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
-		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
 		<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
 		<Item Name="Module Not Stopped--error.vi" Type="VI" URL="../Module Not Stopped--error.vi"/>
