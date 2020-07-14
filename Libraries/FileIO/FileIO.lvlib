@@ -65,10 +65,14 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
+		<Item Name="Create Incremental Numeric File Name (SubVI).vi" Type="VI" URL="../Create Incremental Numeric File Name (SubVI).vi"/>
+		<Item Name="Datestring (SubVI).vi" Type="VI" URL="../Datestring (SubVI).vi"/>
+		<Item Name="Generate Unique File Path (SubVI).vi" Type="VI" URL="../Generate Unique File Path (SubVI).vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
 		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
+		<Item Name="Load Init Configuration (SubVI).vi" Type="VI" URL="../Load Init Configuration (SubVI).vi"/>
 		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
 		<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
@@ -85,6 +89,13 @@
 		<Item Name="Synchronize Caller Events.vi" Type="VI" URL="../Synchronize Caller Events.vi"/>
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
+	</Item>
+	<Item Name="Test" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Generate Unique File Path (SubVI).lvtest" Type="TestItem" URL="../Generate Unique File Path (SubVI).lvtest">
+			<Property Name="utf.test.bind" Type="Str">FileIO.lvlib:Generate Unique File Path (SubVI).vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">0FBCD281-50FF-6D03-6FBE-F039C21492CF</Property>
+		</Item>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
