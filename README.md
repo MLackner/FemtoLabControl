@@ -28,7 +28,7 @@ All public APIs do not include standard DQMH requests.
 
 ***
 ### Device Modules
-#### SpectraPro
+#### Spectrometer
 *DQMH Module* | SpectraPro Control
 
 ##### Public API
@@ -38,8 +38,12 @@ All public APIs do not include standard DQMH requests.
 **Set and Get Wavelength** | *arg: wavelength (nm)* | *ret: wavelength (nm)* | Set the spectrometer to a given wavelength. It is ensured that the spectrometer was set to the correct wavelength which is then returned. The output wavelength is immeadiately broadcasted and passed to the Module Data cluster. *TODO: this is a dummy without functionality*
 
 
-#### PICam
+#### Camera
 *DQMH Module* | PI-MAX 4 Control
+
+##### Known Issues
+
+Prior to preparing the file for saving the image from the Module Data cluster via the FileIO module, you must have an image with the correct dimensions in the Module data cluster. Otherwise the file will be prepared with incorrect dimensions for the image and thus the Write to File request will error.
 
 ##### Public API
 
