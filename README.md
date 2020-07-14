@@ -53,13 +53,32 @@ Prior to preparing the file for saving the image from the Module Data cluster vi
 ### FileIO
 *DQMH Module* | Write data to disk
 
+Specifiy where data gets written by default in the `config.ini` file under `[FileIO] -> datafolder`. This configuration is loaded on initialization of the module. Make sure this folder exists.
+
 #### Public API
 
-**Prepare File** (TODO) | *arg: data::Variant[, dims::Array{Int,1}, filepath::Path*] | *ret: filepath::Path, success::Bool* | Generates an empty HDF5 file with a group/dataset structure resembling the *datacluster* argument. If connected, the datasets will have additional dimensions *dims* in addition to their native dimensions. We can write to this file with the **Write to File** VI. If no file path is specified the file will be saved to the standard path defined in the module configuration.
+---
 
-Success is checked by determining if there was an error. The contents of the *.h5 file are not checked against the content of the data cluster.
+**Prepare File** `| arg: data::Variant[, dims::Array{Int,1}, filepath::Path, name::String] | ret: filepath::Path, success::Bool`
 
-**Write to File** | *arg: path::Path, data::Variant[, indices::Array{Int,1}*] | *ret: success::Bool* | Writes data to the file specified by *path*. Make sure the file was initialized correctly with the **Prepare File** VI.
+Generates an empty HDF5 file with a group/dataset structure resembling the *datacluster* argument. If connected, the datasets will have additional dimensions *dims* in addition to their native dimensions. We can write to this file with the **Write to File** VI. If no file path is specified the file will be saved to the standard path defined in the module configuration. Success is checked by determining if there was an error. The contents of the *.h5 file are not checked against the content of the data cluster.
+
+If *name*, but not *path*, is specified the data gets written to `<datafolder>/<year>-<month>-<day>/<name>/<n>.h5`, where `<n>` is the n'th `.h5` file in the folder.
+
+> ⚠️ **Do not delete any `.h5` files if you intend to write additional files to this folder. The `Prepare File` request counts the `.h5` files in that folder and creates the next file name one based on that.**
+
+If *path* is specified *name* will be ignored and the file will be saved to the specified path. If neither *path* nor *name* is specified the file will be saved at `<datafolder>/<year>-<month>-<day>/noname/<n>.h5`.
+
+The generated path is returned by the request. Wire this output to the `Write to File` VI.
+
+---
+
+**Write to File** `| arg: path::Path, data::Variant[, indices::Array{Int,1}] | ret: success::Bool`
+
+Writes data to the file specified by `path`. Make sure the file was initialized correctly with the `Prepare File` VI.
+
+---
+---
 
 ## Developer Infos
 
