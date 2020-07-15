@@ -235,6 +235,7 @@
 				<Item Name="HDF5 to LVHDF5 Error Stack.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/error.llb/HDF5 to LVHDF5 Error Stack.vi"/>
 				<Item Name="hdf5.dll" Type="Document" URL="/&lt;vilib&gt;/UPVI/lvhdf5/hdf5.dll"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="List Group Objects (recursive).vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/group.llb/List Group Objects (recursive).vi"/>
 				<Item Name="List Group Objects.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/group.llb/List Group Objects.vi"/>
 				<Item Name="LoadTypeCache.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/datatype.llb/private/LoadTypeCache.vi"/>
@@ -300,6 +301,8 @@
 				<Item Name="OpenCreateReplace Dataset.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/OpenCreateReplace Dataset.vi"/>
 				<Item Name="OpenCreateReplace HDF5 File.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/file.llb/OpenCreateReplace HDF5 File.vi"/>
 				<Item Name="Parse Dataset Path.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/common.llb/Parse Dataset Path.vi"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Populate HDF5 Tree.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/utility.llb/Populate HDF5 Tree.vi"/>
 				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
 				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
@@ -356,8 +359,10 @@
 			</Item>
 			<Item Name="Abstract Camera.lvclass" Type="LVClass" URL="../../Camera-LVClass/Abstract Camera_class/Abstract Camera.lvclass"/>
 			<Item Name="Abstract Spectrometer.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/Abstract Spectrometer_class/Abstract Spectrometer.lvclass"/>
+			<Item Name="BuildSendQueryString.vi" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/SupportFiles/BuildSendQueryString.vi"/>
 			<Item Name="Create Attribute.vi" Type="VI" URL="../../LabVIEW-HDF5-Tools/Create Attribute.vi"/>
 			<Item Name="HDF5 Tools.lvlib" Type="Library" URL="../../LabVIEW-HDF5-Tools/HDF5 Tools.lvlib"/>
+			<Item Name="HTMLURLEncoding.vi" Type="VI" URL="../../../Telegram-Bot/Telegram/HTMLURLEncoding.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -365,6 +370,11 @@
 			<Item Name="lvimptsl.dll" Type="Document" URL="lvimptsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Method.ctl" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/TypeDefs/Method.ctl"/>
+			<Item Name="ReplyKeyboardMarkup.ctl" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/TypeDefs/ReplyKeyboardMarkup.ctl"/>
+			<Item Name="sendMessage.ctl" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/TypeDefs/sendMessage.ctl"/>
+			<Item Name="sendMessage.vi" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/sendMessage.vi"/>
+			<Item Name="SendMessageType.ctl" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/TypeDefs/SendMessageType.ctl"/>
 			<Item Name="Simulated Camera.lvclass" Type="LVClass" URL="../../Camera-LVClass/Simulated_class/Simulated Camera.lvclass"/>
 			<Item Name="Simulated.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/Simulated_class/Simulated.lvclass"/>
 		</Item>
