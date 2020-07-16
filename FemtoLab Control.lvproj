@@ -359,8 +359,10 @@
 			</Item>
 			<Item Name="Abstract Camera.lvclass" Type="LVClass" URL="../../Camera-LVClass/Abstract Camera_class/Abstract Camera.lvclass"/>
 			<Item Name="Abstract Spectrometer.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/Abstract Spectrometer_class/Abstract Spectrometer.lvclass"/>
+			<Item Name="BuildQueryString.vi" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/SupportFiles/BuildQueryString.vi"/>
 			<Item Name="BuildSendQueryString.vi" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/SupportFiles/BuildSendQueryString.vi"/>
 			<Item Name="Create Attribute.vi" Type="VI" URL="../../LabVIEW-HDF5-Tools/Create Attribute.vi"/>
+			<Item Name="getUpdates.vi" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/getUpdates.vi"/>
 			<Item Name="HDF5 Tools.lvlib" Type="Library" URL="../../LabVIEW-HDF5-Tools/HDF5 Tools.lvlib"/>
 			<Item Name="HTMLURLEncoding.vi" Type="VI" URL="../../../Telegram-Bot/Telegram/HTMLURLEncoding.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
@@ -371,12 +373,14 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Method.ctl" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/TypeDefs/Method.ctl"/>
+			<Item Name="QueryStringItems.ctl" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/TypeDefs/QueryStringItems.ctl"/>
 			<Item Name="ReplyKeyboardMarkup.ctl" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/TypeDefs/ReplyKeyboardMarkup.ctl"/>
 			<Item Name="sendMessage.ctl" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/TypeDefs/sendMessage.ctl"/>
 			<Item Name="sendMessage.vi" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/sendMessage.vi"/>
 			<Item Name="SendMessageType.ctl" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/TypeDefs/SendMessageType.ctl"/>
 			<Item Name="Simulated Camera.lvclass" Type="LVClass" URL="../../Camera-LVClass/Simulated_class/Simulated Camera.lvclass"/>
 			<Item Name="Simulated.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/Simulated_class/Simulated.lvclass"/>
+			<Item Name="UpdateUniversal.ctl" Type="VI" URL="../../../Telegram-Bot/Telegram/Methods/TypeDefs/UpdateUniversal.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LabControl" Type="EXE">
