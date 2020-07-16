@@ -12,6 +12,25 @@ Dashboard  ---------  <Acquisition Module(s)>
 <Device Drivers>    \    Data Write Module
 ```
 
+## Setup
+For the Notification module to work correctly you need to create a `secret_config.ini` file in the FemtoLabControl parent folder (where the `config.ini` is). 
+
+> ⚠️ **Do not put this file under version control or make it public otherwise!**
+
+Content should be:
+```ini
+[Notification]
+;make sure you prepend 'bot' to your token (considered bug?)
+token=bot<your-telegram-bot-token>
+password=<your-password>
+
+[ntf]
+; notification group for non-critical messages
+
+[ntfcrit]
+; notification group for critical messages
+```
+
 ## Module Description
 All public APIs do not include standard DQMH requests.
 
@@ -21,6 +40,20 @@ All public APIs do not include standard DQMH requests.
 ***
 ### Dashboard
 *DQMH Module* | Start/Stop Device and Acquisition modules. Could show important data (like the spectrum) and could be used to manually control devices
+
+### Notification
+*DQMH Module* | Send and receive notifications to and from the ouside world
+
+There are the following notification groups:
+* `ntf`: for non-cirtical messages like acquisition status etc.
+* `ntfcrit`: for critical messages like malfunctions.
+
+You can subscribe to the groups by sending messages to your Telegram bot:
+>`/sub <group> <password>`
+
+Unsubscribe via:
+>`/unsub <group>`
+
 
 ***
 ### Acquisition Module(s)
