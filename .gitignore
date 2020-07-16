@@ -15,3 +15,6 @@
 *.aliases
 *.lvlps
 .cache/
+
+# Files with sensitive information
+secret_config.ini
