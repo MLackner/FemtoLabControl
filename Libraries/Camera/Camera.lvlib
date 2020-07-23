@@ -20,10 +20,10 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Get Image Argument--cluster.ctl" Type="VI" URL="../Get Image Argument--cluster.ctl"/>
 				<Item Name="Get Image (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Image (Reply Payload)--cluster.ctl"/>
-				<Item Name="Set Exposure Time Argument--cluster.ctl" Type="VI" URL="../Set Exposure Time Argument--cluster.ctl"/>
-				<Item Name="Set Exposure Time (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Exposure Time (Reply Payload)--cluster.ctl"/>
-				<Item Name="Set Binning Argument--cluster.ctl" Type="VI" URL="../Set Binning Argument--cluster.ctl"/>
-				<Item Name="Set Binning (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Binning (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set Accumulations Argument--cluster.ctl" Type="VI" URL="../Set Accumulations Argument--cluster.ctl"/>
+				<Item Name="Set Accumulations (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Accumulations (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set ROI Argument--cluster.ctl" Type="VI" URL="../Set ROI Argument--cluster.ctl"/>
+				<Item Name="Set ROI (Reply Payload)--cluster.ctl" Type="VI" URL="../Set ROI (Reply Payload)--cluster.ctl"/>
 				<Item Name="Acquire Image Argument--cluster.ctl" Type="VI" URL="../Acquire Image Argument--cluster.ctl"/>
 				<Item Name="Acquisition Done Argument--cluster.ctl" Type="VI" URL="../Acquisition Done Argument--cluster.ctl"/>
 				<Item Name="Acquisition Done (Reply Payload)--cluster.ctl" Type="VI" URL="../Acquisition Done (Reply Payload)--cluster.ctl"/>
@@ -44,8 +44,8 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Get Image.vi" Type="VI" URL="../Get Image.vi"/>
-			<Item Name="Set Exposure Time.vi" Type="VI" URL="../Set Exposure Time.vi"/>
-			<Item Name="Set Binning.vi" Type="VI" URL="../Set Binning.vi"/>
+			<Item Name="Set Accumulations.vi" Type="VI" URL="../Set Accumulations.vi"/>
+			<Item Name="Set ROI.vi" Type="VI" URL="../Set ROI.vi"/>
 			<Item Name="Acquire Image.vi" Type="VI" URL="../Acquire Image.vi"/>
 			<Item Name="Acquire Continuously.vi" Type="VI" URL="../Acquire Continuously.vi"/>
 			<Item Name="Acquisition Done.vi" Type="VI" URL="../Acquisition Done.vi"/>
@@ -92,6 +92,7 @@
 		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
 		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
+		<Item Name="ROI--cluster.ctl" Type="VI" URL="../ROI--cluster.ctl"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -104,4 +105,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Initialization.vi" Type="VI" URL="../Initialization.vi"/>
 </Library>
