@@ -28,6 +28,8 @@
 		<Item Name="Utilities" Type="Folder"/>
 		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+		<Item Name="README.md" Type="Document" URL="../README.md"/>
+		<Item Name="secret_config.ini" Type="Document" URL="../secret_config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
