@@ -100,7 +100,6 @@
 		<Item Name="Choose Camera Implementation.vi" Type="VI" URL="../Choose Camera Implementation.vi"/>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
-		<Item Name="Get Set Init Parameters.vi" Type="VI" URL="../../Spectrometer/Get Set Init Parameters.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
 		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
