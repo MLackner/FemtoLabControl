@@ -31,6 +31,14 @@
 				<Item Name="Get Module Data Argument--cluster.ctl" Type="VI" URL="../Get Module Data Argument--cluster.ctl"/>
 				<Item Name="Get Module Data (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Module Data (Reply Payload)--cluster.ctl"/>
 				<Item Name="Stop Acquisition Argument--cluster.ctl" Type="VI" URL="../Stop Acquisition Argument--cluster.ctl"/>
+				<Item Name="Set GatingMode Argument--cluster.ctl" Type="VI" URL="../Set GatingMode Argument--cluster.ctl"/>
+				<Item Name="Set GatingMode (Reply Payload)--cluster.ctl" Type="VI" URL="../Set GatingMode (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get GatingMode Argument--cluster.ctl" Type="VI" URL="../Get GatingMode Argument--cluster.ctl"/>
+				<Item Name="Get GatingMode (Reply Payload)--cluster.ctl" Type="VI" URL="../Get GatingMode (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set RepetitiveGate Argument--cluster.ctl" Type="VI" URL="../Set RepetitiveGate Argument--cluster.ctl"/>
+				<Item Name="Set RepetitiveGate (Reply Payload)--cluster.ctl" Type="VI" URL="../Set RepetitiveGate (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get RepetitiveGate Argument--cluster.ctl" Type="VI" URL="../Get RepetitiveGate Argument--cluster.ctl"/>
+				<Item Name="Get RepetitiveGate (Reply Payload)--cluster.ctl" Type="VI" URL="../Get RepetitiveGate (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -52,6 +60,10 @@
 			<Item Name="Acquisition Done.vi" Type="VI" URL="../Acquisition Done.vi"/>
 			<Item Name="Get Module Data.vi" Type="VI" URL="../Get Module Data.vi"/>
 			<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
+			<Item Name="Set GatingMode.vi" Type="VI" URL="../Set GatingMode.vi"/>
+			<Item Name="Get GatingMode.vi" Type="VI" URL="../Get GatingMode.vi"/>
+			<Item Name="Set RepetitiveGate.vi" Type="VI" URL="../Set RepetitiveGate.vi"/>
+			<Item Name="Get RepetitiveGate.vi" Type="VI" URL="../Get RepetitiveGate.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -73,6 +85,8 @@
 		<Item Name="Broadcast Image.vi" Type="VI" URL="../Broadcast Image.vi"/>
 		<Item Name="Broadcast Exposure Time.vi" Type="VI" URL="../Broadcast Exposure Time.vi"/>
 		<Item Name="Broadcast Binning.vi" Type="VI" URL="../Broadcast Binning.vi"/>
+		<Item Name="Broadcast GatingMode.vi" Type="VI" URL="../Broadcast GatingMode.vi"/>
+		<Item Name="Broadcast RepetitiveGate.vi" Type="VI" URL="../Broadcast RepetitiveGate.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -83,8 +97,10 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Choose Camera Implementation.vi" Type="VI" URL="../Choose Camera Implementation.vi"/>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
+		<Item Name="Get Set Init Parameters.vi" Type="VI" URL="../../Spectrometer/Get Set Init Parameters.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
 		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>

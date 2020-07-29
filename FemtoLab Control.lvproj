@@ -370,14 +370,17 @@
 			<Item Name="getUpdates.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/getUpdates.vi"/>
 			<Item Name="HDF5 Tools.lvlib" Type="Library" URL="../../LabVIEW-HDF5-Tools/HDF5 Tools.lvlib"/>
 			<Item Name="HTMLURLEncoding.vi" Type="VI" URL="../../Telegram-Bot/Telegram/HTMLURLEncoding.vi"/>
+			<Item Name="Initialize Spectrometer.vi" Type="VI" URL="../Libraries/Spectrometer/Initialize Spectrometer.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Load Device Class.vi" Type="VI" URL="../Libraries/Spectrometer/Load Device Class.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvimptsl.dll" Type="Document" URL="lvimptsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Method.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/Method.ctl"/>
+			<Item Name="Open COM Port.vi" Type="VI" URL="../Libraries/Spectrometer/Open COM Port.vi"/>
 			<Item Name="Picam.lvclass" Type="LVClass" URL="../../Camera-LVClass/Picam_class/Picam.lvclass"/>
 			<Item Name="PICam.lvlib" Type="Library" URL="../../picam32_LabView_SDK/PICam_lib/PICam.lvlib"/>
 			<Item Name="Picam64.dll" Type="Document" URL="Picam64.dll">
@@ -388,6 +391,7 @@
 			</Item>
 			<Item Name="PicamModel.ctl" Type="VI" URL="../../picam32_LabView_SDK/PICam_lib/types/PicamModel.ctl"/>
 			<Item Name="PicamRoi.ctl" Type="VI" URL="../../picam32_LabView_SDK/PICam_lib/types/PicamRoi.ctl"/>
+			<Item Name="PicamSensorTemperatureStatus.ctl" Type="VI" URL="../../picam32_LabView_SDK/PICam_lib/Ctrls/PicamSensorTemperatureStatus.ctl"/>
 			<Item Name="QueryStringItems.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/QueryStringItems.ctl"/>
 			<Item Name="ReplyKeyboardMarkup.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/ReplyKeyboardMarkup.ctl"/>
 			<Item Name="sendMessage.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/sendMessage.ctl"/>
