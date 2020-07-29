@@ -25,7 +25,9 @@
 			<Item Name="Test Notification API.vi" Type="VI" URL="../Libraries/Notification/Test Notification API.vi"/>
 			<Item Name="Test Spectrometer API.vi" Type="VI" URL="../Libraries/Spectrometer/Test Spectrometer API.vi"/>
 		</Item>
-		<Item Name="Utilities" Type="Folder"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Open Config File.vi" Type="VI" URL="../Libraries/Utility/Open Config File.vi"/>
+		</Item>
 		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
@@ -353,6 +355,9 @@
 				<Item Name="Update HDF5 Tree Group Icons.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/utility.llb/private/Update HDF5 Tree Group Icons.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write LV Compound Attrs.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/datatype.llb/private/Write LV Compound Attrs.vi"/>
@@ -389,6 +394,8 @@
 			<Item Name="sendMessage.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/sendMessage.vi"/>
 			<Item Name="SendMessageType.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/SendMessageType.ctl"/>
 			<Item Name="Simulated.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/Simulated_class/Simulated.lvclass"/>
+			<Item Name="SpectraPro.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/SpectraPro_class/SpectraPro.lvclass"/>
+			<Item Name="SpectraPro.lvlib" Type="Library" URL="../../SpectraPro-LabVIEW-Driver/SpectraPro.lvlib"/>
 			<Item Name="UpdateUniversal.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/UpdateUniversal.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
