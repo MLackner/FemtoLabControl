@@ -64,7 +64,7 @@ Unsubscribe via:
 
 ### SetGet <Parameter> Requests
 
-**SetGet \<Parameter\>** | *arg: Set/Get, Broadcast* | Determine if the value is set or read. If the value is set, it is read as well to ensure it is set correctly. In case of `Set` the value is broadcasted by default, in case of `Get` it is not broadcasted by default. Select if it broadcasted or not via the `Broadcast` argument. 
+**SetGet \<Parameter\>** | *arg: Set/Get, Broadcast* | Determine if the value is set or read. If the value is set, it is read as well to ensure it is set correctly. Select if it broadcasted or not via the `Broadcast` argument. In case `Set` is chosen, the module will broadcast a `Status Updated` message. 
 
 #### Spectrometer
 *DQMH Module* | SpectraPro Control

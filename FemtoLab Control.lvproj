@@ -26,7 +26,11 @@
 			<Item Name="Test Spectrometer API.vi" Type="VI" URL="../Libraries/Spectrometer/Test Spectrometer API.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
+			<Item Name="Types" Type="Folder">
+				<Item Name="SetOrGet.ctl" Type="VI" URL="../Libraries/Utility/Types/SetOrGet.ctl"/>
+			</Item>
 			<Item Name="Open Config File.vi" Type="VI" URL="../Libraries/Utility/Open Config File.vi"/>
+			<Item Name="PicamParameterValue to Text.vi" Type="VI" URL="../Libraries/Camera/PicamParameterValue to Text.vi"/>
 		</Item>
 		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>

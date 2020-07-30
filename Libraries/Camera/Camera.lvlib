@@ -46,6 +46,18 @@
 				<Item Name="Set IntensifierGain (Reply Payload)--cluster.ctl" Type="VI" URL="../Set IntensifierGain (Reply Payload)--cluster.ctl"/>
 				<Item Name="Get IntensifierGain Argument--cluster.ctl" Type="VI" URL="../Get IntensifierGain Argument--cluster.ctl"/>
 				<Item Name="Get IntensifierGain (Reply Payload)--cluster.ctl" Type="VI" URL="../Get IntensifierGain (Reply Payload)--cluster.ctl"/>
+				<Item Name="SetGet EMIccdGainControlMode Argument--cluster.ctl" Type="VI" URL="../SetGet EMIccdGainControlMode Argument--cluster.ctl"/>
+				<Item Name="SetGet EMIccdGainControlMode (Reply Payload)--cluster.ctl" Type="VI" URL="../SetGet EMIccdGainControlMode (Reply Payload)--cluster.ctl"/>
+				<Item Name="SetGet EMIccdGain Argument--cluster.ctl" Type="VI" URL="../SetGet EMIccdGain Argument--cluster.ctl"/>
+				<Item Name="SetGet EMIccdGain (Reply Payload)--cluster.ctl" Type="VI" URL="../SetGet EMIccdGain (Reply Payload)--cluster.ctl"/>
+				<Item Name="SetGet FloatingPoint Parameter Argument--cluster.ctl" Type="VI" URL="../SetGet FloatingPoint Parameter Argument--cluster.ctl"/>
+				<Item Name="SetGet FloatingPoint Parameter (Reply Payload)--cluster.ctl" Type="VI" URL="../SetGet FloatingPoint Parameter (Reply Payload)--cluster.ctl"/>
+				<Item Name="SetGet Integer Parameter Argument--cluster.ctl" Type="VI" URL="../SetGet Integer Parameter Argument--cluster.ctl"/>
+				<Item Name="SetGet Integer Parameter (Reply Payload)--cluster.ctl" Type="VI" URL="../SetGet Integer Parameter (Reply Payload)--cluster.ctl"/>
+				<Item Name="SetGet LargeInteger Parameter Argument--cluster.ctl" Type="VI" URL="../SetGet LargeInteger Parameter Argument--cluster.ctl"/>
+				<Item Name="SetGet LargeInteger Parameter (Reply Payload)--cluster.ctl" Type="VI" URL="../SetGet LargeInteger Parameter (Reply Payload)--cluster.ctl"/>
+				<Item Name="SetGet Pulse Parameter Argument--cluster.ctl" Type="VI" URL="../SetGet Pulse Parameter Argument--cluster.ctl"/>
+				<Item Name="SetGet Pulse Parameter (Reply Payload)--cluster.ctl" Type="VI" URL="../SetGet Pulse Parameter (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -75,12 +87,20 @@
 			<Item Name="EnableIntensifier.vi" Type="VI" URL="../EnableIntensifier.vi"/>
 			<Item Name="Set IntensifierGain.vi" Type="VI" URL="../Set IntensifierGain.vi"/>
 			<Item Name="Get IntensifierGain.vi" Type="VI" URL="../Get IntensifierGain.vi"/>
+			<Item Name="SetGet EMIccdGainControlMode.vi" Type="VI" URL="../SetGet EMIccdGainControlMode.vi"/>
+			<Item Name="SetGet EMIccdGain.vi" Type="VI" URL="../SetGet EMIccdGain.vi"/>
+			<Item Name="SetGet FloatingPoint Parameter.vi" Type="VI" URL="../SetGet FloatingPoint Parameter.vi"/>
+			<Item Name="SetGet Integer Parameter.vi" Type="VI" URL="../SetGet Integer Parameter.vi"/>
+			<Item Name="SetGet LargeInteger Parameter.vi" Type="VI" URL="../SetGet LargeInteger Parameter.vi"/>
+			<Item Name="SetGet Pulse Parameter.vi" Type="VI" URL="../SetGet Pulse Parameter.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		<Item Name="ROI--cluster.ctl" Type="VI" URL="../ROI--cluster.ctl"/>
+		<Item Name="Read Parameter Spreadsheet.vi" Type="VI" URL="../Read Parameter Spreadsheet.vi"/>
+		<Item Name="Findall.vim" Type="VI" URL="../Findall.vim"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -100,6 +120,12 @@
 		<Item Name="Broadcast RepetitiveGate.vi" Type="VI" URL="../Broadcast RepetitiveGate.vi"/>
 		<Item Name="Broadcast IntensifierStatus.vi" Type="VI" URL="../Broadcast IntensifierStatus.vi"/>
 		<Item Name="Broadcast IntensifierGain.vi" Type="VI" URL="../Broadcast IntensifierGain.vi"/>
+		<Item Name="Broadcast EMIccdGainControlMode.vi" Type="VI" URL="../Broadcast EMIccdGainControlMode.vi"/>
+		<Item Name="Broadcast EMIccdGain.vi" Type="VI" URL="../Broadcast EMIccdGain.vi"/>
+		<Item Name="Broadcast FloatingPoint Parameter.vi" Type="VI" URL="../Broadcast FloatingPoint Parameter.vi"/>
+		<Item Name="Broadcast Integer Parameter.vi" Type="VI" URL="../Broadcast Integer Parameter.vi"/>
+		<Item Name="Broadcast LargeInteger Parameter.vi" Type="VI" URL="../Broadcast LargeInteger Parameter.vi"/>
+		<Item Name="Broadcast Pulse Parameter.vi" Type="VI" URL="../Broadcast Pulse Parameter.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -110,6 +136,8 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Broadcast All Enum Paramters.vi" Type="VI" URL="../Broadcast All Enum Paramters.vi"/>
+		<Item Name="Broadcast All Integer Paramters.vi" Type="VI" URL="../Broadcast All Integer Paramters.vi"/>
 		<Item Name="Choose Camera Implementation.vi" Type="VI" URL="../Choose Camera Implementation.vi"/>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
@@ -123,8 +151,10 @@
 		<Item Name="Module Not Stopped--error.vi" Type="VI" URL="../Module Not Stopped--error.vi"/>
 		<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
 		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
+		<Item Name="Mulit Index Array.vim" Type="VI" URL="../Mulit Index Array.vim"/>
 		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
+		<Item Name="Search Enum Values.vi" Type="VI" URL="../Search Enum Values.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
