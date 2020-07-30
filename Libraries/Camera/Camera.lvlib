@@ -39,6 +39,13 @@
 				<Item Name="Set RepetitiveGate (Reply Payload)--cluster.ctl" Type="VI" URL="../Set RepetitiveGate (Reply Payload)--cluster.ctl"/>
 				<Item Name="Get RepetitiveGate Argument--cluster.ctl" Type="VI" URL="../Get RepetitiveGate Argument--cluster.ctl"/>
 				<Item Name="Get RepetitiveGate (Reply Payload)--cluster.ctl" Type="VI" URL="../Get RepetitiveGate (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get IntensifierStatus Argument--cluster.ctl" Type="VI" URL="../Get IntensifierStatus Argument--cluster.ctl"/>
+				<Item Name="Get IntensifierStatus (Reply Payload)--cluster.ctl" Type="VI" URL="../Get IntensifierStatus (Reply Payload)--cluster.ctl"/>
+				<Item Name="EnableIntensifier Argument--cluster.ctl" Type="VI" URL="../EnableIntensifier Argument--cluster.ctl"/>
+				<Item Name="Set IntensifierGain Argument--cluster.ctl" Type="VI" URL="../Set IntensifierGain Argument--cluster.ctl"/>
+				<Item Name="Set IntensifierGain (Reply Payload)--cluster.ctl" Type="VI" URL="../Set IntensifierGain (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get IntensifierGain Argument--cluster.ctl" Type="VI" URL="../Get IntensifierGain Argument--cluster.ctl"/>
+				<Item Name="Get IntensifierGain (Reply Payload)--cluster.ctl" Type="VI" URL="../Get IntensifierGain (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -64,6 +71,10 @@
 			<Item Name="Get GatingMode.vi" Type="VI" URL="../Get GatingMode.vi"/>
 			<Item Name="Set RepetitiveGate.vi" Type="VI" URL="../Set RepetitiveGate.vi"/>
 			<Item Name="Get RepetitiveGate.vi" Type="VI" URL="../Get RepetitiveGate.vi"/>
+			<Item Name="Get IntensifierStatus.vi" Type="VI" URL="../Get IntensifierStatus.vi"/>
+			<Item Name="EnableIntensifier.vi" Type="VI" URL="../EnableIntensifier.vi"/>
+			<Item Name="Set IntensifierGain.vi" Type="VI" URL="../Set IntensifierGain.vi"/>
+			<Item Name="Get IntensifierGain.vi" Type="VI" URL="../Get IntensifierGain.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -87,6 +98,8 @@
 		<Item Name="Broadcast Binning.vi" Type="VI" URL="../Broadcast Binning.vi"/>
 		<Item Name="Broadcast GatingMode.vi" Type="VI" URL="../Broadcast GatingMode.vi"/>
 		<Item Name="Broadcast RepetitiveGate.vi" Type="VI" URL="../Broadcast RepetitiveGate.vi"/>
+		<Item Name="Broadcast IntensifierStatus.vi" Type="VI" URL="../Broadcast IntensifierStatus.vi"/>
+		<Item Name="Broadcast IntensifierGain.vi" Type="VI" URL="../Broadcast IntensifierGain.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
