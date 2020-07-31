@@ -63,6 +63,7 @@
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Broadcast SensorTemperatureStatus Argument--cluster.ctl" Type="VI" URL="../Broadcast SensorTemperatureStatus Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -131,6 +132,7 @@
 		<Item Name="Broadcast Integer Parameter.vi" Type="VI" URL="../Broadcast Integer Parameter.vi"/>
 		<Item Name="Broadcast LargeInteger Parameter.vi" Type="VI" URL="../Broadcast LargeInteger Parameter.vi"/>
 		<Item Name="Broadcast Pulse Parameter.vi" Type="VI" URL="../Broadcast Pulse Parameter.vi"/>
+		<Item Name="Broadcast SensorTemperatureStatus.vi" Type="VI" URL="../Broadcast SensorTemperatureStatus.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
