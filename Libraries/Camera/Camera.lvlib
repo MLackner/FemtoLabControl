@@ -101,6 +101,11 @@
 		<Item Name="ROI--cluster.ctl" Type="VI" URL="../ROI--cluster.ctl"/>
 		<Item Name="Read Parameter Spreadsheet.vi" Type="VI" URL="../Read Parameter Spreadsheet.vi"/>
 		<Item Name="Findall.vim" Type="VI" URL="../Findall.vim"/>
+		<Item Name="Broadcast All FloatingPoint Paramters.vi" Type="VI" URL="../Broadcast All FloatingPoint Paramters.vi"/>
+		<Item Name="Broadcast All Pulse Parameters.vi" Type="VI" URL="../Broadcast All Pulse Parameters.vi"/>
+		<Item Name="Broadcast All LargeInteger Parameters.vi" Type="VI" URL="../Broadcast All LargeInteger Parameters.vi"/>
+		<Item Name="Broadcast All Boolean Parameters.vi" Type="VI" URL="../Broadcast All Boolean Parameters.vi"/>
+		<Item Name="Update Temperature Status.vi" Type="VI" URL="../Update Temperature Status.vi"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -165,18 +170,6 @@
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Broadcast All FloatingPoint Paramters.vi" Type="VI" URL="../Broadcast All FloatingPoint Paramters.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Broadcast All Pulse Parameters.vi" Type="VI" URL="../Broadcast All Pulse Parameters.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Broadcast All LargeInteger Parameters.vi" Type="VI" URL="../Broadcast All LargeInteger Parameters.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Broadcast All Boolean Parameters.vi" Type="VI" URL="../Broadcast All Boolean Parameters.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 </Library>
