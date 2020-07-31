@@ -69,6 +69,7 @@
 		<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
 		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
 		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
+		<Item Name="PicamParameter Enum From Label.vi" Type="VI" URL="../PicamParameter Enum From Label.vi"/>
 		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
 		<Item Name="Update Image Argument--cluster.ctl" Type="VI" URL="../Update Image Argument--cluster.ctl"/>
 	</Item>

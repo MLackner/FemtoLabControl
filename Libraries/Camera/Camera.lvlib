@@ -167,4 +167,16 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Broadcast All FloatingPoint Paramters.vi" Type="VI" URL="../Broadcast All FloatingPoint Paramters.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Broadcast All Pulse Parameters.vi" Type="VI" URL="../Broadcast All Pulse Parameters.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Broadcast All LargeInteger Parameters.vi" Type="VI" URL="../Broadcast All LargeInteger Parameters.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Broadcast All Boolean Parameters.vi" Type="VI" URL="../Broadcast All Boolean Parameters.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
