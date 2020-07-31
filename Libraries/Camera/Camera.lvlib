@@ -24,7 +24,6 @@
 				<Item Name="Set Accumulations (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Accumulations (Reply Payload)--cluster.ctl"/>
 				<Item Name="Set ROI Argument--cluster.ctl" Type="VI" URL="../Set ROI Argument--cluster.ctl"/>
 				<Item Name="Set ROI (Reply Payload)--cluster.ctl" Type="VI" URL="../Set ROI (Reply Payload)--cluster.ctl"/>
-				<Item Name="Acquire Image Argument--cluster.ctl" Type="VI" URL="../Acquire Image Argument--cluster.ctl"/>
 				<Item Name="Acquisition Done Argument--cluster.ctl" Type="VI" URL="../Acquisition Done Argument--cluster.ctl"/>
 				<Item Name="Acquisition Done (Reply Payload)--cluster.ctl" Type="VI" URL="../Acquisition Done (Reply Payload)--cluster.ctl"/>
 				<Item Name="Acquire Continuously Argument--cluster.ctl" Type="VI" URL="../Acquire Continuously Argument--cluster.ctl"/>
@@ -58,6 +57,8 @@
 				<Item Name="SetGet LargeInteger Parameter (Reply Payload)--cluster.ctl" Type="VI" URL="../SetGet LargeInteger Parameter (Reply Payload)--cluster.ctl"/>
 				<Item Name="SetGet Pulse Parameter Argument--cluster.ctl" Type="VI" URL="../SetGet Pulse Parameter Argument--cluster.ctl"/>
 				<Item Name="SetGet Pulse Parameter (Reply Payload)--cluster.ctl" Type="VI" URL="../SetGet Pulse Parameter (Reply Payload)--cluster.ctl"/>
+				<Item Name="Acquire Image Argument--cluster.ctl" Type="VI" URL="../Acquire Image Argument--cluster.ctl"/>
+				<Item Name="Acquire Image (Reply Payload)--cluster.ctl" Type="VI" URL="../Acquire Image (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -75,7 +76,6 @@
 			<Item Name="Get Image.vi" Type="VI" URL="../Get Image.vi"/>
 			<Item Name="Set Accumulations.vi" Type="VI" URL="../Set Accumulations.vi"/>
 			<Item Name="Set ROI.vi" Type="VI" URL="../Set ROI.vi"/>
-			<Item Name="Acquire Image.vi" Type="VI" URL="../Acquire Image.vi"/>
 			<Item Name="Acquire Continuously.vi" Type="VI" URL="../Acquire Continuously.vi"/>
 			<Item Name="Acquisition Done.vi" Type="VI" URL="../Acquisition Done.vi"/>
 			<Item Name="Get Module Data.vi" Type="VI" URL="../Get Module Data.vi"/>
@@ -94,6 +94,7 @@
 			<Item Name="SetGet Integer Parameter.vi" Type="VI" URL="../SetGet Integer Parameter.vi"/>
 			<Item Name="SetGet LargeInteger Parameter.vi" Type="VI" URL="../SetGet LargeInteger Parameter.vi"/>
 			<Item Name="SetGet Pulse Parameter.vi" Type="VI" URL="../SetGet Pulse Parameter.vi"/>
+			<Item Name="Acquire Image.vi" Type="VI" URL="../Acquire Image.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
