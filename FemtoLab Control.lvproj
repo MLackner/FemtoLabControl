@@ -395,6 +395,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Method.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/Method.ctl"/>
+			<Item Name="Motion Done.vi" Type="VI" URL="../Libraries/ESP301/Motion Done.vi"/>
 			<Item Name="Newport.ESP301.CommandInterface" Type="Document" URL="Newport.ESP301.CommandInterface">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

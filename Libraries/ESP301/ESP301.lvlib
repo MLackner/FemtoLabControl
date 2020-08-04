@@ -42,6 +42,8 @@
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
+		<Item Name="Home Mode.ctl" Type="VI" URL="../Home Mode.ctl"/>
+		<Item Name="Error Handler.vi" Type="VI" URL="../Error Handler.vi"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -67,13 +69,15 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Close Instrument.vi" Type="VI" URL="../Close Instrument.vi"/>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
-		<Item Name="Error Handler.vi" Type="VI" URL="../Error Handler.vi"/>
+		<Item Name="Get Home Mode from Config.vi" Type="VI" URL="../Get Home Mode from Config.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
 		<Item Name="Get Number of Active Axes.vi" Type="VI" URL="../Get Number of Active Axes.vi"/>
 		<Item Name="Get Position (SubVI).vi" Type="VI" URL="../Get Position (SubVI).vi"/>
+		<Item Name="Get Previous Positions (config).vi" Type="VI" URL="../Get Previous Positions (config).vi"/>
 		<Item Name="Get Target Position.vi" Type="VI" URL="../Get Target Position.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
+		<Item Name="Home all Axes.vi" Type="VI" URL="../Home all Axes.vi"/>
 		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
 		<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
@@ -83,12 +87,15 @@
 		<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
 		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
 		<Item Name="Motors On.vi" Type="VI" URL="../Motors On.vi"/>
+		<Item Name="Move to Previous Positions.vi" Type="VI" URL="../Move to Previous Positions.vi"/>
 		<Item Name="Open Device.vi" Type="VI" URL="../Open Device.vi"/>
 		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
+		<Item Name="Search for Home (SubVI).vi" Type="VI" URL="../Search for Home (SubVI).vi"/>
 		<Item Name="Set Position (SubVI).vi" Type="VI" URL="../Set Position (SubVI).vi"/>
 		<Item Name="Set Remote Mode.vi" Type="VI" URL="../Set Remote Mode.vi"/>
 		<Item Name="Update Position Array.vi" Type="VI" URL="../Update Position Array.vi"/>
+		<Item Name="Write Positions to Config.vi" Type="VI" URL="../Write Positions to Config.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
