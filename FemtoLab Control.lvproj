@@ -395,6 +395,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Method.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/Method.ctl"/>
+			<Item Name="Newport.ESP301.CommandInterface" Type="Document" URL="Newport.ESP301.CommandInterface">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Picam.lvclass" Type="LVClass" URL="../../Camera-LVClass/Picam_class/Picam.lvclass"/>
 			<Item Name="PICam.lvlib" Type="Library" URL="../../picam32_LabView_SDK/PICam_lib/PICam.lvlib"/>
 			<Item Name="Picam64.dll" Type="Document" URL="Picam64.dll">
