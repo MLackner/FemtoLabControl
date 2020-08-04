@@ -21,6 +21,7 @@
 				<Item Name="Set Position (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Position (Reply Payload)--cluster.ctl"/>
 				<Item Name="Get Position Argument--cluster.ctl" Type="VI" URL="../Get Position Argument--cluster.ctl"/>
 				<Item Name="Get Position (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Position (Reply Payload)--cluster.ctl"/>
+				<Item Name="Search for Home Argument--cluster.ctl" Type="VI" URL="../Search for Home Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -36,6 +37,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Set Position.vi" Type="VI" URL="../Set Position.vi"/>
 			<Item Name="Get Position.vi" Type="VI" URL="../Get Position.vi"/>
+			<Item Name="Search for Home.vi" Type="VI" URL="../Search for Home.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -67,7 +69,9 @@
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
 		<Item Name="Error Handler.vi" Type="VI" URL="../Error Handler.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
+		<Item Name="Get Number of Active Axes.vi" Type="VI" URL="../Get Number of Active Axes.vi"/>
 		<Item Name="Get Position (SubVI).vi" Type="VI" URL="../Get Position (SubVI).vi"/>
+		<Item Name="Get Target Position.vi" Type="VI" URL="../Get Target Position.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
 		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
