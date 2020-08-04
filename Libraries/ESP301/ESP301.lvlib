@@ -17,6 +17,10 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
+				<Item Name="Set Position Argument--cluster.ctl" Type="VI" URL="../Set Position Argument--cluster.ctl"/>
+				<Item Name="Set Position (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Position (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get Position Argument--cluster.ctl" Type="VI" URL="../Get Position Argument--cluster.ctl"/>
+				<Item Name="Get Position (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Position (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -30,6 +34,8 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="Set Position.vi" Type="VI" URL="../Set Position.vi"/>
+			<Item Name="Get Position.vi" Type="VI" URL="../Get Position.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -46,6 +52,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Broadcast Position.vi" Type="VI" URL="../Broadcast Position.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -56,19 +63,28 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Close Instrument.vi" Type="VI" URL="../Close Instrument.vi"/>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
+		<Item Name="Error Handler.vi" Type="VI" URL="../Error Handler.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
+		<Item Name="Get Position (SubVI).vi" Type="VI" URL="../Get Position (SubVI).vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
 		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
 		<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
 		<Item Name="Module Not Stopped--error.vi" Type="VI" URL="../Module Not Stopped--error.vi"/>
 		<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
 		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
+		<Item Name="Motors On.vi" Type="VI" URL="../Motors On.vi"/>
+		<Item Name="Open Device.vi" Type="VI" URL="../Open Device.vi"/>
 		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
+		<Item Name="Set Position (SubVI).vi" Type="VI" URL="../Set Position (SubVI).vi"/>
+		<Item Name="Set Remote Mode.vi" Type="VI" URL="../Set Remote Mode.vi"/>
+		<Item Name="Update Position Array.vi" Type="VI" URL="../Update Position Array.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
