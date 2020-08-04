@@ -14,6 +14,7 @@
 			<Item Name="Acquisition Example.lvlib" Type="Library" URL="../Libraries/Acquisition Example/Acquisition Example.lvlib"/>
 			<Item Name="Camera.lvlib" Type="Library" URL="../Libraries/Camera/Camera.lvlib"/>
 			<Item Name="Dashboard.lvlib" Type="Library" URL="../Libraries/Dashboard/Dashboard.lvlib"/>
+			<Item Name="ESP301.lvlib" Type="Library" URL="../Libraries/ESP301/ESP301.lvlib"/>
 			<Item Name="FileIO.lvlib" Type="Library" URL="../Libraries/FileIO/FileIO.lvlib"/>
 			<Item Name="Notification.lvlib" Type="Library" URL="../Libraries/Notification/Notification.lvlib"/>
 			<Item Name="Spectrometer.lvlib" Type="Library" URL="../Libraries/Spectrometer/Spectrometer.lvlib"/>
@@ -21,6 +22,7 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Camera API.vi" Type="VI" URL="../Libraries/Camera/Test Camera API.vi"/>
 			<Item Name="Test Dashboard API.vi" Type="VI" URL="../Libraries/Dashboard/Test Dashboard API.vi"/>
+			<Item Name="Test ESP301 API.vi" Type="VI" URL="../Libraries/ESP301/Test ESP301 API.vi"/>
 			<Item Name="Test FileIO API.vi" Type="VI" URL="../Libraries/FileIO/Test FileIO API.vi"/>
 			<Item Name="Test Notification API.vi" Type="VI" URL="../Libraries/Notification/Test Notification API.vi"/>
 			<Item Name="Test Spectrometer API.vi" Type="VI" URL="../Libraries/Spectrometer/Test Spectrometer API.vi"/>
