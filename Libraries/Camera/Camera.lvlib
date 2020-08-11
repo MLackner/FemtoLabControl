@@ -163,6 +163,7 @@
 		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
 		<Item Name="Search Enum Values.vi" Type="VI" URL="../Search Enum Values.vi"/>
+		<Item Name="Store Parameter Value.vi" Type="VI" URL="../Store Parameter Value.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

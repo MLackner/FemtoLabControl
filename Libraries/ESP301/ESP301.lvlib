@@ -48,6 +48,7 @@
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 		<Item Name="Home Mode.ctl" Type="VI" URL="../Home Mode.ctl"/>
 		<Item Name="Error Handler.vi" Type="VI" URL="../Error Handler.vi"/>
+		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -84,7 +85,6 @@
 		<Item Name="Home all Axes.vi" Type="VI" URL="../Home all Axes.vi"/>
 		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
 		<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
-		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
 		<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
 		<Item Name="Module Not Stopped--error.vi" Type="VI" URL="../Module Not Stopped--error.vi"/>
