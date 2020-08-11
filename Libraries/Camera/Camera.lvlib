@@ -176,4 +176,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Print Roi Array.vi" Type="VI" URL="../Print Roi Array.vi"/>
 </Library>
