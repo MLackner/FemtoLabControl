@@ -2,17 +2,30 @@
 LabVIEW project for instrument control and data acquisition in MG222
 
 ## Application Structure
-```
-Launcher
-    |
-Dashboard  ---------  <Acquisition Module(s)>
-    |             /             |
-<Device Modules> /              |
-    |              \            |
-<Device Drivers>    \    Data Write Module
-```
+
+The application is build up from different modules. The **Dashboard** module is used to control the setup as a whole. Devices can be read out and controlled by the user from this module. Devices are working independently from one another and are grouped under **Device Modules** in the list below. All devices work independently from one another which increases maintainability of the application.
+The device modules expose an API that can be used in the whole scope of the project. For example the **Spectrometer Module** exposes a VI called `Set Wavelength` which allows you to set the wavelength of the spectrometer. This becomes relevant if additional modules are added (for example an acquisition VI) that communicate with other modules.
+
+Another modules are the **Notification Module**, which is responsible to send notifications to the user. Currently this is limited to receiving messages via the <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=en">Telegram</a> messenger.
+
+The **FileIO** module is responsible for saving acquired data.
+
+    - Dashboard
+        - \<Acquisition Modules\>
+            - Acquisition Example
+        - \<Device Modules\>
+            - Camera
+            - Spectrometer
+            - ESP301
+        - Notification Module
+        - FileIO
+
+Several of these are <a href="https://delacor.com/products/dqmh/">DQMH Modules</a>. The benefit of using this kind of framework is that modules can work independently of one another, while also being able to intercommunicate. For example one does not necessarily need the delay stages to be connected in order to use the Dashboard. Also, because this is a standardized framework in terms of 'how things work' it is relatively easy to understand the LabVIEW "code" once you get the hang of it, although - admittedly - the learning curve is quite high. There are however some well done tutorials available.
 
 ## Setup
+
+> ℹ️ | This section only applies if you pull a fresh copy of the GitHub repository to your hard drive.
+
 For the Notification module to work correctly you need to create a `secret_config.ini` file in the FemtoLabControl parent folder (where the `config.ini` is). 
 
 > ⚠️ **Do not put this file under version control or make it public otherwise!**
@@ -22,7 +35,7 @@ Content should be:
 [Notification]
 ;make sure you prepend 'bot' to your token (considered bug?)
 token=bot<your-telegram-bot-token>
-password=<your-password>
+password=<your-password-for-joining-groups>
 
 [ntf]
 ; notification group for non-critical messages
@@ -35,14 +48,14 @@ password=<your-password>
 All public APIs do not include standard DQMH requests.
 
 ### Launcher
-*State Machine* | Launches the Dashboard
+*State Machine* | Launches the Dashboard and the FileIO module.
 
 ***
 ### Dashboard
 *DQMH Module* | Start/Stop Device and Acquisition modules. Could show important data (like the spectrum) and could be used to manually control devices
 
 ### Notification
-*DQMH Module* | Send and receive notifications to and from the ouside world
+*DQMH Module* | Send and receive notifications to and from the outside world
 
 There are the following notification groups:
 * `ntf`: for non-cirtical messages like acquisition status etc.
@@ -57,24 +70,28 @@ Unsubscribe via:
 
 ***
 ### Acquisition Module(s)
-*VI(?)* | Set up the devices for data acquisition. Start and abort data acquisition.
+
+#### Acquisition Example
+*State Machine* | Scan the delay stage.
 
 ***
 ### Device Modules
 
-### SetGet <Parameter> Requests
+All device modules (should) have a `Get Module Data` request. This returns the data that is stored in the specific module's internal data cluster.
 
-**SetGet \<Parameter\>** | *arg: Set/Get, Broadcast* | Determine if the value is set or read. If the value is set, it is read as well to ensure it is set correctly. Select if it broadcasted or not via the `Broadcast` argument. In case `Set` is chosen, the module will broadcast a `Status Updated` message. 
 
 #### Spectrometer
 *DQMH Module* | SpectraPro Control
 
 ##### Public API
 
-**Set Wavelength** | *arg: wavelength (nm)* | *ret: nothing* | Set the spectrometer to a given wavelength. It is not guaranteed that the spectrometer will really go to this wavelength. The input wavelength is immeadiately broadcasted and passed to the Module Data cluster. *TODO: this is a dummy without functionality*
+`Set Wavelength` **| arg: wavelength (nm) | ret: wavelength (nm) |** Set the spectrometer to a given wavelength. It is not guaranteed that the spectrometer will really go to this wavelength. The set wavelength in nm is returned and broadcasted.
 
-**Set and Get Wavelength** | *arg: wavelength (nm)* | *ret: wavelength (nm)* | Set the spectrometer to a given wavelength. It is ensured that the spectrometer was set to the correct wavelength which is then returned. The output wavelength is immeadiately broadcasted and passed to the Module Data cluster. *TODO: this is a dummy without functionality*
+`Set Slit Width` **| arg: slit width (um) | ret: slit width (um) |** Set the spectrometer to a given slit width. It is not guaranteed that the spectrometer will really go to this slit width. The set slit width in um is returned and broadcasted.
 
+`Set Grating` **| arg: grating id | ret: grating id |** Set the spectrometer to a given grating id. It is not guaranteed that the spectrometer will really go to this grating id. The set grating id is returned and broadcasted.
+
+****
 
 #### Camera
 *DQMH Module* | PI-MAX 4 Control
@@ -85,19 +102,27 @@ Prior to preparing the file for saving the image from the Module Data cluster vi
 
 ##### Public API
 
-**Get Image** | *arg: nothing* | *ret: 2D Array UInt16* | Get the Image from the camera. The image is broadcasted and put stored in the Module Data cluster. *TODO: this is a dummy without functionality*
+`SetGet <Value Type> Value` **| args: set/get::Enum, broadcast::Bool, parameter::PicamParameter, [value::<Value Type>] |** Determine if the value is set or read. If the value is set, it is read as well to ensure it is set correctly. Select if it broadcasted or not via the `Broadcast` argument. In case `Set` is chosen, the module will broadcast a `Status Updated` message. 
+
+> ℹ Refer to the [Picam Programming Manual](https://www.princetoninstruments.com/wp-content/uploads/2020/04/PICAM-5.x-Programmers-Manual-Issue-8-4411-0161-2.pdf#page=295) for the correct value type of the specified parameter. For example `IntensifierGain` is an *Integer* parameter. So one has to use the `SetGet Integer Value` request.
+
+`Acquire Image` **|** Acquires an image with the internal camera settings. This operation is asynchronous and will error if the time needed for accumulating the data exceeds the timeout of the Camera module.
+
+> The timeout value can be changed from the LabVIEW project under `My Computer/Modules/Camera.lvlib/Private/Module Timeout--constant.vi`
+
+`Get Image` **| ret: image::Array{UInt16,2d} |** Get the Image from the camera. The image is broadcasted and put stored in the Module Data cluster.
+
+`Set ROI` **| arg: roiarray::Array{PicamRoi} | ret: roiarray |** Set the ROIs. For valid ROIs refer to the [PIMAX4 System Manual](https://www.princetoninstruments.com/wp-content/uploads/2020/04/PI-MAX4-System-Manual-Issue-10-4411-0139.pdf#page=70).
 
 ***
-### FileIO
+#### FileIO
 *DQMH Module* | Write data to disk
 
 Specifiy where data gets written by default in the `config.ini` file under `[FileIO] -> datafolder`. This configuration is loaded on initialization of the module. Make sure this folder exists.
 
-#### Public API
+##### Public API
 
----
-
-**Prepare File** `| arg: data::Variant[, dims::Array{Int,1}, filepath::Path, name::String] | ret: filepath::Path, success::Bool`
+`Prepare File` **| arg: data::Variant[, dims::Array{Int,1}, filepath::Path, name::String] | ret: filepath::Path, success::Bool**
 
 Generates an empty HDF5 file with a group/dataset structure resembling the *datacluster* argument. If connected, the datasets will have additional dimensions *dims* in addition to their native dimensions. We can write to this file with the **Write to File** VI. If no file path is specified the file will be saved to the standard path defined in the module configuration. Success is checked by determining if there was an error. The contents of the *.h5 file are not checked against the content of the data cluster.
 
@@ -109,9 +134,8 @@ If *path* is specified *name* will be ignored and the file will be saved to the 
 
 The generated path is returned by the request. Wire this output to the `Write to File` VI.
 
----
 
-**Write to File** `| arg: path::Path, data::Variant[, indices::Array{Int,1}] | ret: success::Bool`
+`Write to File` **| arg: path::Path, data::Variant[, indices::Array{Int,1}] | ret: success::Bool**
 
 Writes data to the file specified by `path`. Make sure the file was initialized correctly with the `Prepare File` VI.
 
@@ -119,6 +143,13 @@ Writes data to the file specified by `path`. Make sure the file was initialized 
 ---
 
 ## Developer Infos
+
+### DQMH Tutorials
+
+* [Tutorial series on YouTube on DQMH](https://www.youtube.com/watch?v=TAhixRaj2Gg&list=PLmF-6jvwRvVOpNdPcRzskvnGbW79ug6AZ)
+* [DQMH best practices](https://delacor.com/dqmh-documentation/dqmh-best-practices/)
+* [DQMH dos and don'ts](https://delacor.com/simple-dqmh-dos-and-donts/)
+* [DQMH helper loops](https://www.hampel-soft.com/blog/dqmh-actors-self-messaging-or-helper-loops/)
 
 ### Add a new "Get Module Data" Request and Wait for Reply
 
