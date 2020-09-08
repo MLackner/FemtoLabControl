@@ -26,6 +26,8 @@
 				<Item Name="Set Grating (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Grating (Reply Payload)--cluster.ctl"/>
 				<Item Name="Get Module Data Argument--cluster.ctl" Type="VI" URL="../Get Module Data Argument--cluster.ctl"/>
 				<Item Name="Get Module Data (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Module Data (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set Diverter Port Argument--cluster.ctl" Type="VI" URL="../Set Diverter Port Argument--cluster.ctl"/>
+				<Item Name="Set Diverter Port (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Diverter Port (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -43,6 +45,7 @@
 			<Item Name="Set Slit Width.vi" Type="VI" URL="../Set Slit Width.vi"/>
 			<Item Name="Set Grating.vi" Type="VI" URL="../Set Grating.vi"/>
 			<Item Name="Get Module Data.vi" Type="VI" URL="../Get Module Data.vi"/>
+			<Item Name="Set Diverter Port.vi" Type="VI" URL="../Set Diverter Port.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -63,6 +66,7 @@
 		<Item Name="Broadcast Wavelength.vi" Type="VI" URL="../Broadcast Wavelength.vi"/>
 		<Item Name="Broadcast Slit Width.vi" Type="VI" URL="../Broadcast Slit Width.vi"/>
 		<Item Name="Broadcast Grating.vi" Type="VI" URL="../Broadcast Grating.vi"/>
+		<Item Name="Broadcast Diverter Port.vi" Type="VI" URL="../Broadcast Diverter Port.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
