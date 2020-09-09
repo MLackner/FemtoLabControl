@@ -57,6 +57,7 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Build Spectrum Graph.vi" Type="VI" URL="../Build Spectrum Graph.vi"/>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
@@ -73,6 +74,7 @@
 		<Item Name="PicamParameter Enum From Label.vi" Type="VI" URL="../PicamParameter Enum From Label.vi"/>
 		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
 		<Item Name="Update Image Argument--cluster.ctl" Type="VI" URL="../Update Image Argument--cluster.ctl"/>
+		<Item Name="XY Plots from Image.vi" Type="VI" URL="../XY Plots from Image.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
