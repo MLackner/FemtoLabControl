@@ -17,6 +17,7 @@
 			<Item Name="ESP301.lvlib" Type="Library" URL="../Libraries/ESP301/ESP301.lvlib"/>
 			<Item Name="FileIO.lvlib" Type="Library" URL="../Libraries/FileIO/FileIO.lvlib"/>
 			<Item Name="Notification.lvlib" Type="Library" URL="../Libraries/Notification/Notification.lvlib"/>
+			<Item Name="Spectrometer Calibration.lvlib" Type="Library" URL="../Libraries/Spectrometer Calibration/Spectrometer Calibration.lvlib"/>
 			<Item Name="Spectrometer.lvlib" Type="Library" URL="../Libraries/Spectrometer/Spectrometer.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
@@ -303,6 +304,7 @@
 				<Item Name="MakeComplexCluster.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/datatype.llb/private/MakeComplexCluster.vi"/>
 				<Item Name="MakeUnitArrayType.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/private/MakeUnitArrayType.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
