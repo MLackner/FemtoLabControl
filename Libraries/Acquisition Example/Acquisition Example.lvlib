@@ -7,4 +7,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 	<Item Name="Module Data.ctl" Type="VI" URL="../Module Data.ctl"/>
 	<Item Name="Save Data.ctl" Type="VI" URL="../Save Data.ctl"/>
+	<Item Name="Wait for Delay Position.vi" Type="VI" URL="../Wait for Delay Position.vi"/>
 </Library>
