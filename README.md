@@ -26,6 +26,10 @@ Several of these are <a href="https://delacor.com/products/dqmh/">DQMH Modules</
 
 > ℹ️ | This section only applies if you pull a fresh copy of the GitHub repository to your hard drive.
 
+### Dependencies
+
+You need to install the 'Live HDF5' package. This can be done conveniently with the VI Package Manager.
+
 ### Picam Driver
 
 The driver can be downloaded from the <a href="ftp://ftp.princetoninstruments.com/Public/Software/Official/PICam">Princeton Instruments Website</a>. After installation of the driver navigate to `C:\Program Files\Common Files\Princeton Instruments\Picam\Runtime`, make a **copy** of `Picam.dll` and rename it to `Picam64.dll`. This is because the LabVIEW wrapper for the Picam driver has to automatically chooses between the 32 and 64bit version, depending on which LabVIEW version is running and `Picam.dll` is not recognized as the 64bit version of the `.dll`.
