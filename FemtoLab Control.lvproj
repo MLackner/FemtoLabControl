@@ -396,6 +396,7 @@
 			<Item Name="BuildSendQueryString.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/SupportFiles/BuildSendQueryString.vi"/>
 			<Item Name="Create Attribute.vi" Type="VI" URL="../../LabVIEW-HDF5-Tools/Create Attribute.vi"/>
 			<Item Name="Diverter Location.ctl" Type="VI" URL="../../SpectraPro-LabVIEW-Driver/Libraries/Types/Diverter Location.ctl"/>
+			<Item Name="Get ISO Timestring.vi" Type="VI" URL="../Libraries/Acquisition Example/Get ISO Timestring.vi"/>
 			<Item Name="getUpdates.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/getUpdates.vi"/>
 			<Item Name="HDF5 Tools.lvlib" Type="Library" URL="../../LabVIEW-HDF5-Tools/HDF5 Tools.lvlib"/>
 			<Item Name="HTMLURLEncoding.vi" Type="VI" URL="../../Telegram-Bot/Telegram/HTMLURLEncoding.vi"/>
