@@ -19,6 +19,7 @@
 			<Item Name="Notification.lvlib" Type="Library" URL="../Libraries/Notification/Notification.lvlib"/>
 			<Item Name="Spectrometer Calibration.lvlib" Type="Library" URL="../Libraries/Spectrometer Calibration/Spectrometer Calibration.lvlib"/>
 			<Item Name="Spectrometer.lvlib" Type="Library" URL="../Libraries/Spectrometer/Spectrometer.lvlib"/>
+			<Item Name="Topas.lvlib" Type="Library" URL="../Libraries/Topas/Topas.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Camera API.vi" Type="VI" URL="../Libraries/Camera/Test Camera API.vi"/>
@@ -27,6 +28,7 @@
 			<Item Name="Test FileIO API.vi" Type="VI" URL="../Libraries/FileIO/Test FileIO API.vi"/>
 			<Item Name="Test Notification API.vi" Type="VI" URL="../Libraries/Notification/Test Notification API.vi"/>
 			<Item Name="Test Spectrometer API.vi" Type="VI" URL="../Libraries/Spectrometer/Test Spectrometer API.vi"/>
+			<Item Name="Test Topas API.vi" Type="VI" URL="../Libraries/Topas/Test Topas API.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Types" Type="Folder">
@@ -396,6 +398,7 @@
 			<Item Name="BuildSendQueryString.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/SupportFiles/BuildSendQueryString.vi"/>
 			<Item Name="Create Attribute.vi" Type="VI" URL="../../LabVIEW-HDF5-Tools/Create Attribute.vi"/>
 			<Item Name="Diverter Location.ctl" Type="VI" URL="../../SpectraPro-LabVIEW-Driver/Libraries/Types/Diverter Location.ctl"/>
+			<Item Name="ErrorType.ctl" Type="VI" URL="../../Topas-LabVIEW-Driver/Libraries/ErrorType.ctl"/>
 			<Item Name="Get ISO Timestring.vi" Type="VI" URL="../Libraries/Acquisition Example/Get ISO Timestring.vi"/>
 			<Item Name="getUpdates.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/getUpdates.vi"/>
 			<Item Name="HDF5 Tools.lvlib" Type="Library" URL="../../LabVIEW-HDF5-Tools/HDF5 Tools.lvlib"/>
@@ -432,6 +435,8 @@
 			<Item Name="Slit.ctl" Type="VI" URL="../../Spectrometer-LVClass/Types/Slit.ctl"/>
 			<Item Name="SpectraPro.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/SpectraPro_class/SpectraPro.lvclass"/>
 			<Item Name="SpectraPro.lvlib" Type="Library" URL="../../SpectraPro-LabVIEW-Driver/SpectraPro.lvlib"/>
+			<Item Name="TopasAPI.dll" Type="Document" URL="../../Topas-LabVIEW-Driver/Libraries/TopasAPI.dll"/>
+			<Item Name="TopasDriver.lvlib" Type="Library" URL="../../Topas-LabVIEW-Driver/TopasDriver.lvlib"/>
 			<Item Name="UpdateUniversal.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/UpdateUniversal.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
