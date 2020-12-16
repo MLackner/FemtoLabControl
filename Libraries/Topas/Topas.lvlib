@@ -19,6 +19,7 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Set Wavelength Argument--cluster.ctl" Type="VI" URL="../Set Wavelength Argument--cluster.ctl"/>
 				<Item Name="Set Wavelength (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Wavelength (Reply Payload)--cluster.ctl"/>
+				<Item Name="Open Shutter Argument--cluster.ctl" Type="VI" URL="../Open Shutter Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -33,6 +34,7 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Set Wavelength.vi" Type="VI" URL="../Set Wavelength.vi"/>
+			<Item Name="Open Shutter.vi" Type="VI" URL="../Open Shutter.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
