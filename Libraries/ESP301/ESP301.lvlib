@@ -112,4 +112,6 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Get Serial Port Config.vi" Type="VI" URL="../Get Serial Port Config.vi"/>
+	<Item Name="Get Device Config.vi" Type="VI" URL="../Get Device Config.vi"/>
 </Library>

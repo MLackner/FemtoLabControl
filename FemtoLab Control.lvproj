@@ -112,6 +112,7 @@
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="ConcatPaths.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/common.llb/ConcatPaths.vi"/>
+				<Item Name="Convert LV Text to UTF-8.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Tools/Unicode/Convert LV Text to UTF-8.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create New Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create New Rendezvous.vi"/>
 				<Item Name="Create Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create Rendezvous.vi"/>
@@ -336,6 +337,10 @@
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Populate HDF5 Tree.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/utility.llb/Populate HDF5 Tree.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="Read All Attributes.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Read All Attributes.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
@@ -375,6 +380,7 @@
 				<Item Name="Simple OpenCreateReplace Dataset (Variant).vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/Simple OpenCreateReplace Dataset (Variant).vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="StructAlign.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/datatype.llb/private/StructAlign.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -391,7 +397,6 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Update HDF5 Tree Group Icons.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/utility.llb/private/Update HDF5 Tree Group Icons.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
-				<Item Name="UTF8 Tools.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Tools/Unicode/UTF8 Tools.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
@@ -402,11 +407,15 @@
 				<Item Name="Write LV Type Attrs.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/datatype.llb/private/Write LV Type Attrs.vi"/>
 			</Item>
 			<Item Name="Abstract Spectrometer.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/Abstract Spectrometer_class/Abstract Spectrometer.lvclass"/>
+			<Item Name="Abstract Topas.lvclass" Type="LVClass" URL="../../Topas-LVClass/Abstract Topas/Abstract Topas.lvclass"/>
+			<Item Name="Abstract TranslationStage.lvclass" Type="LVClass" URL="../../TranslationStage-LVClass/Abstract TranslationStage/Abstract TranslationStage.lvclass"/>
 			<Item Name="BuildQueryString.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/SupportFiles/BuildQueryString.vi"/>
 			<Item Name="BuildSendQueryString.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/SupportFiles/BuildSendQueryString.vi"/>
 			<Item Name="Create Attribute.vi" Type="VI" URL="../../LabVIEW-HDF5-Tools/Create Attribute.vi"/>
 			<Item Name="Diverter Location.ctl" Type="VI" URL="../../SpectraPro-LabVIEW-Driver/Libraries/Types/Diverter Location.ctl"/>
 			<Item Name="ErrorType.ctl" Type="VI" URL="../../Topas-LabVIEW-Driver/Libraries/ErrorType.ctl"/>
+			<Item Name="ESP301-Driver.lvlib" Type="Library" URL="../../ESP301-Driver/ESP301-Driver.lvlib"/>
+			<Item Name="ESP301.lvclass" Type="LVClass" URL="../../TranslationStage-LVClass/ESP301_class/ESP301.lvclass"/>
 			<Item Name="Get ISO Timestring.vi" Type="VI" URL="../Libraries/Acquisition Example/Get ISO Timestring.vi"/>
 			<Item Name="getUpdates.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/getUpdates.vi"/>
 			<Item Name="HDF5 Tools.lvlib" Type="Library" URL="../../LabVIEW-HDF5-Tools/HDF5 Tools.lvlib"/>
@@ -419,7 +428,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Method.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/Method.ctl"/>
-			<Item Name="Motion Done.vi" Type="VI" URL="../Libraries/ESP301/Motion Done.vi"/>
 			<Item Name="Newport.ESP301.CommandInterface" Type="Document" URL="Newport.ESP301.CommandInterface">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -439,11 +447,14 @@
 			<Item Name="sendMessage.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/sendMessage.ctl"/>
 			<Item Name="sendMessage.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/sendMessage.vi"/>
 			<Item Name="SendMessageType.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/SendMessageType.ctl"/>
+			<Item Name="Simulated-Topas.lvclass" Type="LVClass" URL="../../Topas-LVClass/Simulated-Topas_class/Simulated-Topas.lvclass"/>
+			<Item Name="Simulated-TS.lvclass" Type="LVClass" URL="../../TranslationStage-LVClass/Simulated_class/Simulated-TS.lvclass"/>
 			<Item Name="Simulated.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/Simulated_class/Simulated.lvclass"/>
 			<Item Name="Slit.ctl" Type="VI" URL="../../Spectrometer-LVClass/Types/Slit.ctl"/>
 			<Item Name="SpectraPro.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/SpectraPro_class/SpectraPro.lvclass"/>
 			<Item Name="SpectraPro.lvlib" Type="Library" URL="../../SpectraPro-LabVIEW-Driver/SpectraPro.lvlib"/>
-			<Item Name="TopasAPI.dll" Type="Document" URL="../../Topas-LabVIEW-Driver/Libraries/TopasAPI.dll"/>
+			<Item Name="Topas.lvclass" Type="LVClass" URL="../../Topas-LVClass/Topas_class/Topas.lvclass"/>
+			<Item Name="TopasAPI.dll" Type="Document" URL="../Libraries/Topas/TopasAPI.dll"/>
 			<Item Name="TopasDriver.lvlib" Type="Library" URL="../../Topas-LabVIEW-Driver/TopasDriver.lvlib"/>
 			<Item Name="UpdateUniversal.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/UpdateUniversal.ctl"/>
 		</Item>
