@@ -28,7 +28,7 @@ Several of these are <a href="https://delacor.com/products/dqmh/">DQMH Modules</
 
 ### Dependencies
 
-You need to install the 'Live HDF5' package. This can be done conveniently with the VI Package Manager.
+You need to install the 'Delacor Queued Message Hander' (DQMH) and 'Live HDF5' packages. This can be done conveniently with the VI Package Manager.
 
 ### Picam Driver
 
