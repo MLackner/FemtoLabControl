@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -454,7 +454,7 @@
 			<Item Name="SpectraPro.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/SpectraPro_class/SpectraPro.lvclass"/>
 			<Item Name="SpectraPro.lvlib" Type="Library" URL="../../SpectraPro-LabVIEW-Driver/SpectraPro.lvlib"/>
 			<Item Name="Topas.lvclass" Type="LVClass" URL="../../Topas-LVClass/Topas_class/Topas.lvclass"/>
-			<Item Name="TopasAPI.dll" Type="Document" URL="../Libraries/Topas/TopasAPI.dll"/>
+			<Item Name="TopasAPI.dll" Type="Document" URL="../../Topas-LabVIEW-Driver/Libraries/TopasAPI.dll"/>
 			<Item Name="TopasDriver.lvlib" Type="Library" URL="../../Topas-LabVIEW-Driver/TopasDriver.lvlib"/>
 			<Item Name="UpdateUniversal.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/UpdateUniversal.ctl"/>
 		</Item>
@@ -464,6 +464,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{A0E901A2-DDA7-4073-9628-D6FA19F38CAD}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{1C84C778-400E-4E12-91A6-B158DDF67BC2}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{4E6FC960-77D9-4291-A18F-A94DC3665547}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">LabControl</Property>
