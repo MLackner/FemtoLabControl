@@ -457,7 +457,7 @@
 			<Item Name="SpectraPro.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/SpectraPro_class/SpectraPro.lvclass"/>
 			<Item Name="SpectraPro.lvlib" Type="Library" URL="../../SpectraPro-LabVIEW-Driver/SpectraPro.lvlib"/>
 			<Item Name="Topas.lvclass" Type="LVClass" URL="../../Topas-LVClass/Topas_class/Topas.lvclass"/>
-			<Item Name="TopasAPI.dll" Type="Document" URL="../Libraries/Topas/TopasAPI.dll"/>
+			<Item Name="TopasAPI.dll" Type="Document" URL="../../Topas-LabVIEW-Driver/Libraries/TopasAPI.dll"/>
 			<Item Name="TopasDriver.lvlib" Type="Library" URL="../../Topas-LabVIEW-Driver/TopasDriver.lvlib"/>
 			<Item Name="UpdateUniversal.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/UpdateUniversal.ctl"/>
 		</Item>
