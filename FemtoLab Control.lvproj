@@ -255,7 +255,6 @@
 				<Item Name="HDF5 Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/common.llb/HDF5 Error Cluster From Error Code.vi"/>
 				<Item Name="HDF5 Error Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/common.llb/HDF5 Error Cluster.ctl"/>
 				<Item Name="HDF5 Ref.ctl" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/library.llb/HDF5 Ref.ctl"/>
-				<Item Name="HDF5 Ref.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/UPVI/lvhdf5/library.llb/HDF5 Ref.lvclass"/>
 				<Item Name="HDF5 to LVHDF5 Error Stack.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/error.llb/HDF5 to LVHDF5 Error Stack.vi"/>
 				<Item Name="hdf5.dll" Type="Document" URL="/&lt;vilib&gt;/UPVI/lvhdf5/hdf5.dll"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
