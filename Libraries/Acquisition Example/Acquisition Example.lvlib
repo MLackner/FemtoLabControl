@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Acquisition States.ctl" Type="VI" URL="../Acquisition States.ctl"/>
+	<Item Name="Get Steps from File.vi" Type="VI" URL="../Get Steps from File.vi"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 	<Item Name="Module Data.ctl" Type="VI" URL="../Module Data.ctl"/>
 	<Item Name="Save Data.ctl" Type="VI" URL="../Save Data.ctl"/>
