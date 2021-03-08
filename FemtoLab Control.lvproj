@@ -18,6 +18,7 @@
 			<Item Name="FileIO.lvlib" Type="Library" URL="../Libraries/FileIO/FileIO.lvlib"/>
 			<Item Name="Notification.lvlib" Type="Library" URL="../Libraries/Notification/Notification.lvlib"/>
 			<Item Name="Pump Probe.lvlib" Type="Library" URL="../Libraries/Pump Probe/Pump Probe.lvlib"/>
+			<Item Name="Rotation Stage.lvlib" Type="Library" URL="../Libraries/Rotation Stage/Rotation Stage.lvlib"/>
 			<Item Name="Spectrometer Calibration.lvlib" Type="Library" URL="../Libraries/Spectrometer Calibration/Spectrometer Calibration.lvlib"/>
 			<Item Name="Spectrometer.lvlib" Type="Library" URL="../Libraries/Spectrometer/Spectrometer.lvlib"/>
 			<Item Name="Topas.lvlib" Type="Library" URL="../Libraries/Topas/Topas.lvlib"/>
@@ -28,6 +29,7 @@
 			<Item Name="Test ESP301 API.vi" Type="VI" URL="../Libraries/ESP301/Test ESP301 API.vi"/>
 			<Item Name="Test FileIO API.vi" Type="VI" URL="../Libraries/FileIO/Test FileIO API.vi"/>
 			<Item Name="Test Notification API.vi" Type="VI" URL="../Libraries/Notification/Test Notification API.vi"/>
+			<Item Name="Test Rotation Stage API.vi" Type="VI" URL="../Libraries/Rotation Stage/Test Rotation Stage API.vi"/>
 			<Item Name="Test Spectrometer API.vi" Type="VI" URL="../Libraries/Spectrometer/Test Spectrometer API.vi"/>
 			<Item Name="Test Topas API.vi" Type="VI" URL="../Libraries/Topas/Test Topas API.vi"/>
 		</Item>
