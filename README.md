@@ -17,6 +17,8 @@ The **FileIO** module is responsible for saving acquired data.
             - Camera
             - Spectrometer
             - ESP301
+            - Topas
+            - Rotational Stage
         - Notification Module
         - FileIO
 
@@ -174,3 +176,9 @@ Writes data to the file specified by `path`. Make sure the file was initialized 
 5. Click "OK"
 6. In the "Message Handling Loop", connect the *Module Name* input of the "Bundle By Name" node to the module Data cluster. Also create an error constant for the "Get Module Data_error" input.
 7. Set up the event case in the "Test *Module Name* API".
+
+### Thorlabs APT and LabVIEW
+
+The APT library is used for the Rotation Stage.
+
+[Guide to LabVIEW and APT](https://www.thorlabs.com/images/TabImages/GuideToLabVIEWandAPT.pdf)
