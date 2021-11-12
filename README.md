@@ -36,6 +36,15 @@ You need to install the 'Delacor Queued Message Hander' (DQMH) and 'Live HDF5' p
 
 The driver can be downloaded from the <a href="ftp://ftp.princetoninstruments.com/Public/Software/Official/PICam">Princeton Instruments Website</a>. After installation of the driver navigate to `C:\Program Files\Common Files\Princeton Instruments\Picam\Runtime`, make a **copy** of `Picam.dll` and rename it to `Picam64.dll`. This is because the LabVIEW wrapper for the Picam driver has to automatically chooses between the 32 and 64bit version, depending on which LabVIEW version is running and `Picam.dll` is not recognized as the 64bit version of the `.dll`.
 
+Also, you need to clone the repository of the <a href="https://github.com/MLackner/picam32_LabView_SDK.git">LabVIEW bindings</a> for the Picam driver
+```
+git clone https://github.com/MLackner/picam32_LabView_SDK.git
+```
+and switch to the branch with 64bit support.
+```
+git checkout 64bit-support
+```
+
 ### ESP301 Driver
 
 Download the driver <a href="https://www.newport.com/medias/sys_master/images/images/h24/hfe/9044102840350/ESP301-GUI-V2.0.0.3.zip">here</a>.
