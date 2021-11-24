@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="19008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)T!!!*Q(C=\&gt;5`4A*"&amp;-@R(]&lt;#FBM9%E`QLM!6O-+\!KW*T6&lt;WLZ7/+WSYQ&lt;M#6[#ER?`-0IW*"BIVRD$$Q0,&lt;_@.R&gt;FGF8O[E7ZUOF?0:UM_X8KV/2]?X:(JLXXJ\/ZI[V/P4_#`08RI`H:`7`',^M`Y,2&gt;&gt;S,@_\0&amp;\]%@TY\W#G^C#C*3VI4D/V:5^*HO2*HO2*HO2"(O2"(O2"(O2/\O2/\O2/\O2'&lt;O2'&lt;O2'&lt;O3^EIN=Z#+(F#S?,*2-GES1&gt;);CZ#XR**\%EXDYKM34?"*0YEE]&gt;&amp;(C34S**`%E(I9J]33?R*.Y%A^4&gt;5HW3IYH]4#^!E`A#4S"*`#QJ!*0!!A7#S9/*I'BY'2Q%(A#4_$B5)%H]!3?Q".Y/+X!%XA#4_!*0!TJOR*&gt;USIZ(K;2YX%]DM@R/"[GFO.R0)\(]4A?FJ0D=4Q/QFH1G2S#H%&amp;/"_?,YX%]@-DR/"\(YXA=$[@[&amp;@+_-UX4+DE?QW.Y$)`B-4R-)=.D?!S0Y4%]4#P$9XA-D_%R0#QFQW.Y$)]"-2:F?2G4'1/.4E:A?(DVO]8[69IOM6[FOHF6.[8K:F0&gt;2+K&lt;1X8262&gt;4&gt;:&amp;5G[`;6.6GK4:"^=?JU#K-;B(6Y.:2"^\XN*'WJ1WU.7V&amp;7^)7N(E&lt;_MU&gt;$Y?$^PO^RH(5&gt;LP6-!R;L^&gt;;L6:;,J&gt;;,";;T_@PDY&amp;\[PM$98IO08,]P(H;$3_TB_@.\+&amp;^$O04LO7`]0`Z$TQ&lt;&gt;;/0;\"(LX9EW-M!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
+<Library LVVersion="20008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)T!!!*Q(C=\&gt;5`4A*"&amp;-@R(]&lt;#FBM9%E`QLM!6O-+\!KW*T6&lt;WLZ7/+WSYQ&lt;M#6[#ER?`-0IW*"BIVRD$$Q0,&lt;_@.R&gt;FGF8O[E7ZUOF?0:UM_X8KV/2]?X:(JLXXJ\/ZI[V/P4_#`08RI`H:`7`',^M`Y,2&gt;&gt;S,@_\0&amp;\]%@TY\W#G^C#C*3VI4D/V:5^*HO2*HO2*HO2"(O2"(O2"(O2/\O2/\O2/\O2'&lt;O2'&lt;O2'&lt;O3^EIN=Z#+(F#S?,*2-GES1&gt;);CZ#XR**\%EXDYKM34?"*0YEE]&gt;&amp;(C34S**`%E(I9J]33?R*.Y%A^4&gt;5HW3IYH]4#^!E`A#4S"*`#QJ!*0!!A7#S9/*I'BY'2Q%(A#4_$B5)%H]!3?Q".Y/+X!%XA#4_!*0!TJOR*&gt;USIZ(K;2YX%]DM@R/"[GFO.R0)\(]4A?FJ0D=4Q/QFH1G2S#H%&amp;/"_?,YX%]@-DR/"\(YXA=$[@[&amp;@+_-UX4+DE?QW.Y$)`B-4R-)=.D?!S0Y4%]4#P$9XA-D_%R0#QFQW.Y$)]"-2:F?2G4'1/.4E:A?(DVO]8[69IOM6[FOHF6.[8K:F0&gt;2+K&lt;1X8262&gt;4&gt;:&amp;5G[`;6.6GK4:"^=?JU#K-;B(6Y.:2"^\XN*'WJ1WU.7V&amp;7^)7N(E&lt;_MU&gt;$Y?$^PO^RH(5&gt;LP6-!R;L^&gt;;L6:;,J&gt;;,";;T_@PDY&amp;\[PM$98IO08,]P(H;$3_TB_@.\+&amp;^$O04LO7`]0`Z$TQ&lt;&gt;;/0;\"(LX9EW-M!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -92,7 +92,7 @@
 	</Item>
 	<Item Name="Test" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Generate Unique File Path (SubVI).lvtest" Type="TestItem" URL="../Generate Unique File Path (SubVI).lvtest">
+		<Item Name="Generate Unique File Path (SubVI).lvtest" Type="{00000000-0000-0000-0000-000000000000}" URL="../Generate Unique File Path (SubVI).lvtest">
 			<Property Name="utf.test.bind" Type="Str">FileIO.lvlib:Generate Unique File Path (SubVI).vi</Property>
 			<Property Name="utf.vector.test.bind" Type="Str">0FBCD281-50FF-6D03-6FBE-F039C21492CF</Property>
 		</Item>
