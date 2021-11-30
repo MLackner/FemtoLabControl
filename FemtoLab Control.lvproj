@@ -452,6 +452,7 @@
 			<Item Name="PicamRoi.ctl" Type="VI" URL="../../picam32_LabView_SDK/PICam_lib/types/PicamRoi.ctl"/>
 			<Item Name="PicamSensorTemperatureStatus.ctl" Type="VI" URL="../../picam32_LabView_SDK/PICam_lib/Ctrls/PicamSensorTemperatureStatus.ctl"/>
 			<Item Name="QueryStringItems.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/QueryStringItems.ctl"/>
+			<Item Name="Read Serial Number.vi" Type="VI" URL="../Libraries/Topas/Read Serial Number.vi"/>
 			<Item Name="ReplyKeyboardMarkup.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/ReplyKeyboardMarkup.ctl"/>
 			<Item Name="sendMessage.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/sendMessage.ctl"/>
 			<Item Name="sendMessage.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/sendMessage.vi"/>

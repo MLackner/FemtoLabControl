@@ -25,6 +25,13 @@
 				<Item Name="Get Wavelength (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Wavelength (Reply Payload)--cluster.ctl"/>
 				<Item Name="Get Module Data Argument--cluster.ctl" Type="VI" URL="../Get Module Data Argument--cluster.ctl"/>
 				<Item Name="Get Module Data (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Module Data (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get Interactions Argument--cluster.ctl" Type="VI" URL="../Get Interactions Argument--cluster.ctl"/>
+				<Item Name="Get Interactions (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Interactions (Reply Payload)--cluster.ctl"/>
+				<Item Name="Print Interactions Argument--cluster.ctl" Type="VI" URL="../Print Interactions Argument--cluster.ctl"/>
+				<Item Name="Print Interactions (Reply Payload)--cluster.ctl" Type="VI" URL="../Print Interactions (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set Interaction Argument--cluster.ctl" Type="VI" URL="../Set Interaction Argument--cluster.ctl"/>
+				<Item Name="Get Wavelength Set Status Argument--cluster.ctl" Type="VI" URL="../Get Wavelength Set Status Argument--cluster.ctl"/>
+				<Item Name="Get Wavelength Set Status (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Wavelength Set Status (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -42,6 +49,10 @@
 			<Item Name="Open Shutter.vi" Type="VI" URL="../Open Shutter.vi"/>
 			<Item Name="Get Wavelength.vi" Type="VI" URL="../Get Wavelength.vi"/>
 			<Item Name="Get Module Data.vi" Type="VI" URL="../Get Module Data.vi"/>
+			<Item Name="Get Interactions.vi" Type="VI" URL="../Get Interactions.vi"/>
+			<Item Name="Print Interactions.vi" Type="VI" URL="../Print Interactions.vi"/>
+			<Item Name="Set Interaction.vi" Type="VI" URL="../Set Interaction.vi"/>
+			<Item Name="Get Wavelength Set Status.vi" Type="VI" URL="../Get Wavelength Set Status.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -60,6 +71,7 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Broadcast Topas Wavelength.vi" Type="VI" URL="../Broadcast Topas Wavelength.vi"/>
+		<Item Name="Set Wavelength Status Broadcast.vi" Type="VI" URL="../Set Wavelength Status Broadcast.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
