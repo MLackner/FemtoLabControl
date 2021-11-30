@@ -16,5 +16,8 @@
 *.lvlps
 .cache/
 
+# Vim
+*~
+
 # Files with sensitive information
 secret_config.ini
