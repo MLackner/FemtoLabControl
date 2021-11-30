@@ -434,6 +434,9 @@
 			</Item>
 			<Item Name="Manipulator CLI Driver.lvlib" Type="Library" URL="../../Manipulator-CLIDriver/Manipulator CLI Driver.lvlib"/>
 			<Item Name="Method.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/Method.ctl"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Newport.ESP301.CommandInterface" Type="Document" URL="Newport.ESP301.CommandInterface">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -459,11 +462,13 @@
 			<Item Name="Slit.ctl" Type="VI" URL="../../Spectrometer-LVClass/Types/Slit.ctl"/>
 			<Item Name="SpectraPro.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/SpectraPro_class/SpectraPro.lvclass"/>
 			<Item Name="SpectraPro.lvlib" Type="Library" URL="../../SpectraPro-LabVIEW-Driver/SpectraPro.lvlib"/>
-			<Item Name="Topas.lvclass" Type="LVClass" URL="../../Topas-LVClass/Topas_class/Topas.lvclass"/>
+			<Item Name="Topas3.lvclass" Type="LVClass" URL="../../Topas-LVClass/Topas_class/Topas3.lvclass"/>
+			<Item Name="Topas4.lvclass" Type="LVClass" URL="../../Topas-LVClass/Topas4/Topas4.lvclass"/>
+			<Item Name="Topas4.lvlib" Type="Library" URL="../../Topas4-LabVIEW-Driver/Library/Topas4.lvlib"/>
+			<Item Name="Topas4Lib.dll" Type="Document" URL="../../../../../../Windows/SysWOW64/Topas4Lib.dll"/>
 			<Item Name="TopasAPI.dll" Type="Document" URL="TopasAPI.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TopasAPI.dll" Type="Document" URL="../../Topas-LabVIEW-Driver/Libraries/TopasAPI.dll"/>
 			<Item Name="TopasDriver.lvlib" Type="Library" URL="../../Topas-LabVIEW-Driver/TopasDriver.lvlib"/>
 			<Item Name="UpdateUniversal.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/UpdateUniversal.ctl"/>
 		</Item>
