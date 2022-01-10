@@ -518,7 +518,6 @@
 			<Item Name="Slit.ctl" Type="VI" URL="../../Spectrometer-LVClass/Types/Slit.ctl"/>
 			<Item Name="SpectraPro.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/SpectraPro_class/SpectraPro.lvclass"/>
 			<Item Name="SpectraPro.lvlib" Type="Library" URL="../../SpectraPro-LabVIEW-Driver/SpectraPro.lvlib"/>
-			<Item Name="Stop Module.vi" Type="VI" URL="../Libraries/ESP301/Stop Module.vi"/>
 			<Item Name="TestStruct.ctl" Type="VI" URL="../Libraries/FileIO/TestStruct.ctl"/>
 			<Item Name="Topas3.lvclass" Type="LVClass" URL="../../Topas-LVClass/Topas_class/Topas3.lvclass"/>
 			<Item Name="Topas4.lvclass" Type="LVClass" URL="../../Topas-LVClass/Topas4/Topas4.lvclass"/>
