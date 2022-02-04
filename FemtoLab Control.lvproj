@@ -452,7 +452,7 @@
 				<Item Name="Write LV Compound Attrs.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/datatype.llb/private/Write LV Compound Attrs.vi"/>
 				<Item Name="Write LV Type Attrs.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/datatype.llb/private/Write LV Type Attrs.vi"/>
 			</Item>
-			<Item Name="Abstract Delay Stage.lvclass" Type="LVClass" URL="../../Delay Stage-LVClass/Abstract Delay Stage/Abstract Delay Stage.lvclass"/>
+			<Item Name="Abstract Delay Stage.lvclass" Type="LVClass" URL="../../delay-stage-lvclass/Abstract Delay Stage/Abstract Delay Stage.lvclass"/>
 			<Item Name="Abstract Spectrometer.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/Abstract Spectrometer_class/Abstract Spectrometer.lvclass"/>
 			<Item Name="Abstract Topas.lvclass" Type="LVClass" URL="../../Topas-LVClass/Abstract Topas/Abstract Topas.lvclass"/>
 			<Item Name="BuildQueryString.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/SupportFiles/BuildQueryString.vi"/>
@@ -461,7 +461,7 @@
 			<Item Name="Diverter Location.ctl" Type="VI" URL="../../SpectraPro-LabVIEW-Driver/Libraries/Types/Diverter Location.ctl"/>
 			<Item Name="ErrorType.ctl" Type="VI" URL="../../Topas-LabVIEW-Driver/Libraries/ErrorType.ctl"/>
 			<Item Name="ESP301-Driver.lvlib" Type="Library" URL="../../ESP301-Driver/ESP301-Driver.lvlib"/>
-			<Item Name="ESP301.lvclass" Type="LVClass" URL="../../Delay Stage-LVClass/ESP301/ESP301.lvclass"/>
+			<Item Name="ESP301.lvclass" Type="LVClass" URL="../../delay-stage-lvclass/ESP301/ESP301.lvclass"/>
 			<Item Name="GenNet-Client.lvlib" Type="Library" URL="../../translation-stage-dqmh/Translation Stage_Source/Libraries/hse-libraries/Source/hse-gennet/GenNet-Client/GenNet-Client.lvlib"/>
 			<Item Name="GenNet-Server.lvlib" Type="Library" URL="../../translation-stage-dqmh/Translation Stage_Source/Libraries/hse-libraries/Source/hse-gennet/GenNet-Server/GenNet-Server.lvlib"/>
 			<Item Name="Get ISO Timestring.vi" Type="VI" URL="../Libraries/Acquisition Example/Get ISO Timestring.vi"/>
@@ -483,7 +483,8 @@
 			<Item Name="lvimptsl.dll" Type="Document" URL="lvimptsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Manipulator CLI Driver.lvlib" Type="Library" URL="../../Manipulator-CLIDriver/Manipulator CLI Driver.lvlib"/>
+			<Item Name="Manipulator CLI Driver.lvlib" Type="Library" URL="../../manipulator-cli-driver/Manipulator CLI Driver.lvlib"/>
+			<Item Name="Manipulator Status.ctl" Type="VI" URL="../../Manipulator-CLIDriver/Manipulator Status.ctl"/>
 			<Item Name="Method.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/Method.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -512,7 +513,7 @@
 			<Item Name="sendMessage.vi" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/sendMessage.vi"/>
 			<Item Name="SendMessageType.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/SendMessageType.ctl"/>
 			<Item Name="Set Position.vi" Type="VI" URL="../Libraries/ESP301/Set Position.vi"/>
-			<Item Name="Simulated Delay Stage.lvclass" Type="LVClass" URL="../../Delay Stage-LVClass/Simulated/Simulated Delay Stage.lvclass"/>
+			<Item Name="Simulated Delay Stage.lvclass" Type="LVClass" URL="../../delay-stage-lvclass/Simulated/Simulated Delay Stage.lvclass"/>
 			<Item Name="Simulated-Topas.lvclass" Type="LVClass" URL="../../Topas-LVClass/Simulated-Topas_class/Simulated-Topas.lvclass"/>
 			<Item Name="Simulated.lvclass" Type="LVClass" URL="../../Spectrometer-LVClass/Simulated_class/Simulated.lvclass"/>
 			<Item Name="Slit.ctl" Type="VI" URL="../../Spectrometer-LVClass/Types/Slit.ctl"/>
@@ -522,10 +523,11 @@
 			<Item Name="Topas3.lvclass" Type="LVClass" URL="../../Topas-LVClass/Topas_class/Topas3.lvclass"/>
 			<Item Name="Topas4.lvclass" Type="LVClass" URL="../../Topas-LVClass/Topas4/Topas4.lvclass"/>
 			<Item Name="Topas4.lvlib" Type="Library" URL="../../Topas4-LabVIEW-Driver/Library/Topas4.lvlib"/>
-			<Item Name="Topas4Lib.dll" Type="Document" URL="../../../../../../Windows/SysWOW64/Topas4Lib.dll"/>
+			<Item Name="Topas4Lib.dll" Type="Document" URL="/C/Windows/SysWOW64/Topas4Lib.dll"/>
 			<Item Name="TopasAPI.dll" Type="Document" URL="TopasAPI.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="TopasAPI.dll" Type="Document" URL="../../Topas-LabVIEW-Driver/Libraries/TopasAPI.dll"/>
 			<Item Name="TopasDriver.lvlib" Type="Library" URL="../../Topas-LabVIEW-Driver/TopasDriver.lvlib"/>
 			<Item Name="UDP Configuration--constant.vi" Type="VI" URL="../../translation-stage-dqmh/Translation Stage_Source/Project/UDP Configuration--constant.vi"/>
 			<Item Name="UpdateUniversal.ctl" Type="VI" URL="../../Telegram-Bot/Telegram/Methods/TypeDefs/UpdateUniversal.ctl"/>
